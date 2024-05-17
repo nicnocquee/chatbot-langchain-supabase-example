@@ -160,7 +160,7 @@ export function ChatWindow(props: {
 
   return (
     <div
-      className={`flex flex-col items-center p-4 md:p-8 rounded grow overflow-hidden ${
+      className={`flex flex-col items-center w-full max-w-md mx-auto p-4 md:p-8 rounded grow overflow-hidden ${
         messages.length > 0 ? "border" : ""
       }`}
     >
@@ -182,7 +182,7 @@ export function ChatWindow(props: {
                   key={m.id}
                   message={m}
                   aiEmoji={emoji}
-                  sources={sourcesForMessages[sourceKey]}
+                  sources={[]}
                 ></ChatMessageBubble>
               );
             })
