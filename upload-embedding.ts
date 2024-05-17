@@ -29,7 +29,15 @@ export const main = async () => {
       const filePath = path.join(__dirname, "data", file);
       const text = await fs.readFile(filePath, "utf8");
       const splitDocuments = await splitter.createDocuments([text]);
-      documents.push(...splitDocuments);
+      documents.push(
+        ...splitDocuments.map((doc) => ({
+          ...doc,
+          metadata: {
+            ...doc.metadata,
+            topic: file.replace(".md", "").replaceAll("-", " "),
+          },
+        })),
+      );
     } else {
       const filePath = path.join(__dirname, "data", file);
       const json = await fs.readFile(filePath, "utf8");
@@ -50,7 +58,10 @@ export const main = async () => {
                   ".json",
                   "",
                 )}: ${question}\n${answer}`,
-                metadata: { filename: file, question },
+                metadata: {
+                  filename: file,
+                  topic: file.replace(".json", "").replaceAll("-", " "),
+                },
               }),
             );
           } else {
