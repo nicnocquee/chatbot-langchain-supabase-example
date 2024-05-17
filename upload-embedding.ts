@@ -13,8 +13,8 @@ export const main = async () => {
   const documents = [];
 
   const splitter = RecursiveCharacterTextSplitter.fromLanguage("markdown", {
-    chunkSize: 256,
-    chunkOverlap: 20,
+    chunkSize: 500,
+    chunkOverlap: 0,
   });
 
   // get json from directory
