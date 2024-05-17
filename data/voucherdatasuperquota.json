@@ -1,0 +1,38 @@
+[
+    {
+        "question": "Bagaimana cara isi ulang Voucher Data Kuota?",
+        "answer": "Isi ulang Voucher Data Kuota sama dengan cara isi ulang voucher pulsa"
+    },
+    {
+        "question": "Dimana saya dapat membeli Voucher Data Kuota Smartfren?",
+        "answer": "Voucher Data Kuota Smartfren dapat dibeli di semua toko yang menjual produk Smartfren."
+    },
+    {
+        "question": "Siapa yang dapat menggunakan Voucher Data Kuota?",
+        "answer": "Voucher Data Kuota hanya dapat digunakan oleh pelanggan dengan nomor prabayar Smartfren"
+    },
+    {
+        "question": "Apa yang terjadi jika saya pelanggan Pascabayar dan saya isi ulang Voucher Data Kuota?",
+        "answer": "Pengisian akan gagal, namun kode HRN dapat digunakan kembali"
+    },
+    {
+        "question": "Apa yang terjadi jika saya isi ulang Voucher Data Kuota lebih dari 10x dalam sebulan?",
+        "answer": "Pengisian akan gagal, namun kode HRN dapat digunakan kembali"
+    },
+    {
+        "question": "Jika saya memiliki Paket Unlimited Harian, apakah saya bisa melakukan top up Voucher Data Kuota?",
+        "answer": "Bisa"
+    },
+    {
+        "question": "Jika saya memiliki Paket Unlimited Harian dan Voucher Data Kuota sekaligus, kuota mana yang akan terpakai duluan?",
+        "answer": "Kuota data dari Voucher Data Kuota akan terpakai duluan, namun kecepatan akan mengikuti kecepatan Unlimited Harian"
+    },
+    {
+        "question": "Jika saya memiliki Paket Unlimited Harian dan sudah dalam kondisi kecepatan disesuaikan, apakah top up Voucher Data Kuota dapat menaikkan kecepatan?",
+        "answer": "Tidak, walaupun kuota yang terpakai adalah kuota dari Voucher Data, kecepatan akan kembali normal keesokan harinya"
+    },
+    {
+        "question": "Apa yang sebaiknya saya lakukan jika kuota Voucher Data Kuota saya habis sebelum masa berakhir paket?",
+        "answer": "Jika kuota Anda habis di tengah periode paket, maka akses ke layanan internet akan menggunakan tarif reguler. Anda disarankan untuk melakukan isi ulang Voucher Data Kuota atau membeli paket lainnya"
+    }
+]
