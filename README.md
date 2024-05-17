@@ -1,4 +1,4 @@
-# Chatbot Langchain Nextjs Example
+# Chatbot Langchain Nextjs Supabase Example
 
 Example chatbot that will only answer questions based on the data in the `data` folder. The data can be in JSON or Markdown format. When the file is in JSON format, the content should be an array of objects with a `question` and `answer` property.
 
