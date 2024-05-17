@@ -1,0 +1,42 @@
+[
+  {
+    "question": "Bagaimana cara pengembalian Pulsa Darurat?",
+    "answer": "Pengembalian atas pinjaman Pulsa akan dilakukan melalui pemotongan pulsa pelanggan dalam jangka waktu 24 jam setelah pinjaman diberikan atau pada saat pelanggan melakukan pengisian pulsa. Pengembalian yang akan dipotong adalah pulsa darurat yang dipinjam beserta dengan biaya layanan."
+  },
+  {
+    "question": "Apakah ada dampak dari aturan kenaikan PPN 11% per 1 April terhadap Pinjaman berjalan pelanggan?",
+    "answer": "Ada. Dampak dari kenaikan harga PPN per 1 April 2022 menjadi 11% adalah tarif potongan atas semua pinjaman yang masih berjalan sampai 1 April 2022 akan mengalami penyesuaian dengan kenaikan PPN."
+  },
+  {
+    "question": "Apa itu Emergency Credit atau Pulsa Darurat ?",
+    "answer": "Emergency Credit atau Pulsa Darurat adalah layanan interaktif yang memungkinkan pelanggan prabayar Smartfren melakukan pinjam pulsa melalui SMS, USSI dan MySF"
+  },
+  {
+    "question": "Bagaimana cara menggunakan layanan ini ?",
+    "answer": "Untuk menggunakan layanan ini pelanggan cukup kirim SMS ke nomor 505 dengan format PULSA untuk meminjam Pulsa Darurat . \n\n\nContoh : Kirim PULSA ke 505"
+  },
+  {
+    "question": "Apakah semua pelanggan dapat menggunakan layanan ini ?",
+    "answer": "Layanan ini hanya digunakan oleh pelanggan Smartfren prabayar (non-pascabayar dan non-MiFi) yang termasuk dalam kriteria credit scoring milik partner."
+  },
+  {
+    "question": "Berapa nominal pulsa yang bisa didapatkan dari layanan Pulsa Darurat ?",
+    "answer": "Saat ini nominal yang bisa didapatkan dari layanan Pulsa Darurat adalah :\n\n\nTipe LayananMasa AktifEmergency Credit Rp.3,0000 hariEmergency Credit Rp.4,0000 hariEmergency Credit Rp.6,0007 hariEmergency Credit Rp.8,0007 hariEmergency Credit Rp.12,00015 hari"
+  },
+  {
+    "question": "Bagaimana cara pengembalian Pulsa Darurat ?",
+    "answer": "Pengembalian atas pinjaman Pulsa dan Data Darurat akan dilakukan melalui pemotongan pulsa pelanggan dalam jangka waktu 24 jam setelah pinjaman diberikan atau pada saat pelanggan melakukan pengisian pulsa. Pengembalian yang akan dipotong adalah pulsa darurat yang dipinjam beserta dengan biaya layanan."
+  },
+  {
+    "question": "Apakah ada batas atau limit pulsa yang dapat dipinjam ?",
+    "answer": "Batas atau limit pinjaman masing-masing pelanggan adalah berbeda-beda bergantung pada credit scoring milik partner, history pembayaran dan history top-up dari pelanggan tersebut."
+  },
+  {
+    "question": "Bagaimana cara mengetahui bahwa saya termasuk dalam kategori pelanggan yang memenuhi kriteria peminjam atau tidak ?",
+    "answer": "Pelanggan dapat mengirimkan SMS dengan keyword “INFO” kirim ke 505 untuk mengetahui status Pulsa Darurat atau mengirim keyword “PULSA”untuk mendapatkan Pulsa Darurat Smartfren,"
+  },
+  {
+    "question": "Bagaimana cara melakukan pengecekan jumlah Pulsa Darurat yang belum dikembalikan?",
+    "answer": "Pelanggan dapat mengirimkan SMS dengan keyword “INFO” kirim ke 505 untuk mengetahui status Pulsa Darurat yang belum dibayarkan."
+  }
+]

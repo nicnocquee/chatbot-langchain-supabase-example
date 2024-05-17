@@ -2,54 +2,67 @@ import { promises as fs } from "fs";
 import { Document } from "langchain/document";
 import { createClient } from "@supabase/supabase-js";
 import { SupabaseVectorStore } from "@langchain/community/vectorstores/supabase";
+import { RecursiveCharacterTextSplitter } from "langchain/text_splitter";
 import { OpenAIEmbeddings } from "@langchain/openai";
 import path from "node:path";
 import dotenv from "dotenv";
 
-dotenv.config();
+dotenv.config({ path: path.join(__dirname, ".env.local") });
 
 export const main = async () => {
   const documents = [];
 
+  const splitter = RecursiveCharacterTextSplitter.fromLanguage("markdown", {
+    chunkSize: 256,
+    chunkOverlap: 20,
+  });
+
   // get json from directory
   const files = await fs.readdir(path.join(__dirname, "data"));
   for (const file of files) {
-    if (!file.endsWith(".json")) {
-      console.log(`Skipping ${file} because it's not a JSON file`);
+    if (!file.endsWith(".json") && !file.endsWith(".md")) {
+      console.log(`Skipping ${file} because it's not a JSON or Markdown file`);
       continue;
     }
 
-    const filePath = path.join(__dirname, "data", file);
-    const json = await fs.readFile(filePath, "utf8");
-    try {
-      const data = JSON.parse(json);
+    if (file.endsWith(".md")) {
+      const filePath = path.join(__dirname, "data", file);
+      const text = await fs.readFile(filePath, "utf8");
+      const splitDocuments = await splitter.createDocuments([text]);
+      documents.push(...splitDocuments);
+    } else {
+      const filePath = path.join(__dirname, "data", file);
+      const json = await fs.readFile(filePath, "utf8");
+      try {
+        const data = JSON.parse(json);
 
-      if (!Array.isArray(data)) {
-        console.log(`Skipping ${file} because the content is not an array`);
-        continue;
-      }
-
-      for (const item of data) {
-        const { question, answer } = item;
-        if (question && answer) {
-          documents.push(
-            new Document({
-              pageContent: `About ${file.replace(
-                ".json",
-                "",
-              )}: ${question}\n${answer}`,
-              metadata: { filename: file, question },
-            }),
-          );
-        } else {
-          console.log(
-            `Skipping ${file} because it doesn't have a question and answer`,
-          );
-          break;
+        if (!Array.isArray(data)) {
+          console.log(`Skipping ${file} because the content is not an array`);
+          continue;
         }
+
+        for (const item of data) {
+          const { question, answer } = item;
+          if (question && answer) {
+            documents.push(
+              new Document({
+                pageContent: `About ${file.replace(
+                  ".json",
+                  "",
+                )}: ${question}\n${answer}`,
+                metadata: { filename: file, question },
+              }),
+            );
+          } else {
+            console.log(
+              `Skipping ${file} because it doesn't have a question and answer`,
+            );
+            break;
+          }
+        }
+      } catch (error) {
+        console.log(`Skipping ${file} because it's not valid JSON`);
       }
-    } catch (error) {
-      console.log(`Skipping ${file} because it's not valid JSON`);
     }
   }
 

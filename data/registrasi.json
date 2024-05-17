@@ -1,42 +1,42 @@
 [
-    {
-        "question": "1. Apa yang dimaksud dengan Registrasi Pelanggan Prabayar?",
-        "answer": "Registrasi Pelanggan Prabayar merupakan pendaftaran identitas diri yang wajib dilakukan oleh calon pelanggan dan pelanggan lama kartu prabayar yang datanya belum divalidasi (“Pelanggan”) dengan menggunakan data identitas kependudukan yang valid sebagaimana yang tercatat di Direktorat Jenderal Kependudukan & Pencatatan Sipil Kementerian Dalam Negeri Republik Indonesia (“Ditjen Dukcapil”). Ketentuan registrasi pelanggan ini juga berlaku bagi calon pelanggan pascabayar."
-    },
-    {
-        "question": "2. Apa tujuan dan manfaat dilakukannya registrasi kartu prabayar pelanggan jasa telekomunikasi ini?",
-        "answer": "·    Memberikan perlindungan kepada masyarakat pengguna jasa layanan telekomunikasi terhadap tindakan kejahatan dan aksi-aksi penyalahgunaan yang dilakukan oleh pihak yang tidak bertanggung jawab (kejahatan terorisme, penipuan, informasi spamming, kejahatan siber) dan sebagainya, sehingga masyarakat/pelanggan juga semakin nyaman dalam menggunakan jasa layanan telekomunikasi.\n\n\n·        Kemudahan penyediaan layanan bagi pelanggan layanan telekomunikasi misalnya untuk transaksi online dan non tunai.\n\n\n·         Data pelanggan tersebut dapat digunakan untuk kepentingan keuangan inklusif atau penyaluran dana atau bantuan pemerintah dan hal hal lain sejenisnya."
-    },
-    {
-        "question": "3. Apa yang membedakan registrasi kartu prabayar sekarang dengan registrasi sebelumnya?",
-        "answer": "NOKetentuan Registrasi SebelumnyaKetentuan Registrasi Baru1Registrasi menggunakan data Nomor Identitas, Nama, Alamat, Tempat/Tanggal Lahir, ROID (Retail/Outlet ID), Kode PosRegistrasi menggunakan data Nomor Induk Kependudukan (NIK) dan nomor Kartu Keluarga (No. KK) yang tercantum pada KTP elektronik (KTP-el) dan Kartu Keluarga (KK).2Tidak terdapat proses validasiHarus melalui proses validasi ke database Ditjen DUKCAPIL3Hanya dapat dilakukan oleh gerai penyelenggara jasa telekomunikasi dan gerai milik mitraDapat dilakukan oleh pelanggan yang bersangkutan atau datang ke Gallery Smartfren, atau datang ke Retail Outlet atau menghubungi layanan contact center 4444."
-    },
-    {
-        "question": "4. Apakah registrasi kartu prabayar ini berlaku untuk pelanggan baru saja?",
-        "answer": "Tidak. Registrasi  kartu prabayar ini wajib diikuti oleh calon pelanggan/pelanggan baru dan pelanggan lama."
-    },
-    {
-        "question": "5. Apakah pelanggan dapat melakukan sendiri proses registrasi kartu prabayar?",
-        "answer": "Ya, calon pelanggan dan pelanggan lama dapat melakukan sendiri proses registrasi kartu prabayar dengan syarat menyampaikan NIK, nomor KK sesuai KK & KTP yang tercatat di Ditjen Dukcapil."
-    },
-    {
-        "question": "6. Apakah registrasi kartu prabayar juga bisa dilakukan di gerai milik penyelenggara jasa telekomunikasi\tatau di gerai mitra penyelenggara jasa telekomunikasi?",
-        "answer": "Ya, pelanggan juga bisa datang ke Gallery Smartfren atau Retail Outlet dengan membawa persyaratan untuk melakukan registrasi."
-    },
-    {
-        "question": "7. Persyaratan apa yang harus disiapkan pelanggan untuk melakukan registrasi kartu prabayar?",
-        "answer": "Persyaratan yang harus disiapkan yaitu:\n\n\nBagi WNI (Warga Negara Indonesia) :\n\n\n·         KTP elektronik\n\n\n·         Kartu Keluarga (KK)\n\n\nBagi WNA (Warga Negara Asing):\n\n\n·         Paspor\n\n\n·         KITAP (Kartu Ijin Tinggal Tetap)\n\n\n·         KITAS (Kartu Ijin Tinggal Sementara)"
-    },
-    {
-        "question": "8. Informasi apa saja di dalam KK & KTP elektronik yang dibutuhkan untuk melakukan registrasi kartu prabayar?",
-        "answer": "Informasi yang dibutuhkan adalah :\n\n\nNomor Induk Kependudukan (NIK) terdiri dari 16 digitNomor Kartu Keluarga terdiri dari 16 digit"
-    },
-    {
-        "question": "9. Apakah calon pelanggan dan pelanggan lama yang belum memiliki KK dan KTP elektronik juga dapat melakukan registrasi?",
-        "answer": "Ya dapat. Jika belum memiliki KTP elektronik tetap dapat melakukan registrasi dengan menggunakan NIK yang informasinya terdapat dalam KK. Jika belum memiliki KK, tidak dapat melakukan registrasi."
-    },
-    {
-        "question": "10. Bagaimana cara melakukan registrasi kartu prabayar?",
-        "answer": "Registrasi sendiri dengan 4 cara mudah sebagai berikut :\n\n\na.    Ketik SMS :\n\n\n–       Registrasi nomor baru\n\n\nNIK#Nomor KK#  kirim ke 4444\n\n\nContoh : 1234567890123456#3201060401130027#\n\n\nb.    Melalui menu aktivasi yang muncul dari layar handphone pada saat registrasi  nomor baru\n\n\nc.    Tekan *4444# dari menu dialer handphone\n\n\nd.    Melalui website Smartfren mysf.id/reg\n\n\n§  Datang ke Gallery Smartfren atau Retail Outlet\n\n\n§  Menghubungi contact center 4444"
-    }
+  {
+    "question": "1. Apa yang dimaksud dengan Registrasi Pelanggan Prabayar?",
+    "answer": "Registrasi Pelanggan Prabayar merupakan pendaftaran identitas diri yang wajib dilakukan oleh calon pelanggan dan pelanggan lama kartu prabayar yang datanya belum divalidasi (“Pelanggan”) dengan menggunakan data identitas kependudukan yang valid sebagaimana yang tercatat di Direktorat Jenderal Kependudukan & Pencatatan Sipil Kementerian Dalam Negeri Republik Indonesia (“Ditjen Dukcapil”). Ketentuan registrasi pelanggan ini juga berlaku bagi calon pelanggan pascabayar."
+  },
+  {
+    "question": "2. Apa tujuan dan manfaat dilakukannya registrasi kartu prabayar pelanggan jasa telekomunikasi ini?",
+    "answer": "Memberikan perlindungan kepada masyarakat pengguna jasa layanan telekomunikasi terhadap tindakan kejahatan dan aksi-aksi penyalahgunaan yang dilakukan oleh pihak yang tidak bertanggung jawab (kejahatan terorisme, penipuan, informasi spamming, kejahatan siber) dan sebagainya, sehingga masyarakat/pelanggan juga semakin nyaman dalam menggunakan jasa layanan telekomunikasi.\n\n\n·        Kemudahan penyediaan layanan bagi pelanggan layanan telekomunikasi misalnya untuk transaksi online dan non tunai.\n\n\n·         Data pelanggan tersebut dapat digunakan untuk kepentingan keuangan inklusif atau penyaluran dana atau bantuan pemerintah dan hal hal lain sejenisnya."
+  },
+  {
+    "question": "3. Apa yang membedakan registrasi kartu prabayar sekarang dengan registrasi sebelumnya?",
+    "answer": "NOKetentuan Registrasi SebelumnyaKetentuan Registrasi Baru1Registrasi menggunakan data Nomor Identitas, Nama, Alamat, Tempat/Tanggal Lahir, ROID (Retail/Outlet ID), Kode PosRegistrasi menggunakan data Nomor Induk Kependudukan (NIK) dan nomor Kartu Keluarga (No. KK) yang tercantum pada KTP elektronik (KTP-el) dan Kartu Keluarga (KK).2Tidak terdapat proses validasiHarus melalui proses validasi ke database Ditjen DUKCAPIL3Hanya dapat dilakukan oleh gerai penyelenggara jasa telekomunikasi dan gerai milik mitraDapat dilakukan oleh pelanggan yang bersangkutan atau datang ke Gallery Smartfren, atau datang ke Retail Outlet atau menghubungi layanan contact center 4444."
+  },
+  {
+    "question": "4. Apakah registrasi kartu prabayar ini berlaku untuk pelanggan baru saja?",
+    "answer": "Tidak. Registrasi  kartu prabayar ini wajib diikuti oleh calon pelanggan/pelanggan baru dan pelanggan lama."
+  },
+  {
+    "question": "5. Apakah pelanggan dapat melakukan sendiri proses registrasi kartu prabayar?",
+    "answer": "Ya, calon pelanggan dan pelanggan lama dapat melakukan sendiri proses registrasi kartu prabayar dengan syarat menyampaikan NIK, nomor KK sesuai KK & KTP yang tercatat di Ditjen Dukcapil."
+  },
+  {
+    "question": "6. Apakah registrasi kartu prabayar juga bisa dilakukan di gerai milik penyelenggara jasa telekomunikasi\tatau di gerai mitra penyelenggara jasa telekomunikasi?",
+    "answer": "Ya, pelanggan juga bisa datang ke Gallery Smartfren atau Retail Outlet dengan membawa persyaratan untuk melakukan registrasi."
+  },
+  {
+    "question": "7. Persyaratan apa yang harus disiapkan pelanggan untuk melakukan registrasi kartu prabayar?",
+    "answer": "Persyaratan yang harus disiapkan yaitu:\n\n\nBagi WNI (Warga Negara Indonesia) :\n\n\n·         KTP elektronik\n\n\n·         Kartu Keluarga (KK)\n\n\nBagi WNA (Warga Negara Asing):\n\n\n·         Paspor\n\n\n·         KITAP (Kartu Ijin Tinggal Tetap)\n\n\n·         KITAS (Kartu Ijin Tinggal Sementara)"
+  },
+  {
+    "question": "8. Informasi apa saja di dalam KK & KTP elektronik yang dibutuhkan untuk melakukan registrasi kartu prabayar?",
+    "answer": "Informasi yang dibutuhkan adalah :\n\n\nNomor Induk Kependudukan (NIK) terdiri dari 16 digitNomor Kartu Keluarga terdiri dari 16 digit"
+  },
+  {
+    "question": "9. Apakah calon pelanggan dan pelanggan lama yang belum memiliki KK dan KTP elektronik juga dapat melakukan registrasi?",
+    "answer": "Ya dapat. Jika belum memiliki KTP elektronik tetap dapat melakukan registrasi dengan menggunakan NIK yang informasinya terdapat dalam KK. Jika belum memiliki KK, tidak dapat melakukan registrasi."
+  },
+  {
+    "question": "10. Bagaimana cara melakukan registrasi kartu prabayar?",
+    "answer": "Registrasi sendiri dengan 4 cara mudah sebagai berikut :\n\n\na.    Ketik SMS :\n\n\n–       Registrasi nomor baru\n\n\nNIK#Nomor KK#  kirim ke 4444\n\n\nContoh : 1234567890123456#3201060401130027#\n\n\nb.    Melalui menu aktivasi yang muncul dari layar handphone pada saat registrasi  nomor baru\n\n\nc.    Tekan *4444# dari menu dialer handphone\n\n\nd.    Melalui website Smartfren mysf.id/reg\n\n\n§  Datang ke Gallery Smartfren atau Retail Outlet\n\n\n§  Menghubungi contact center 4444"
+  }
 ]

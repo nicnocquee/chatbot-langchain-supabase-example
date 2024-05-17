@@ -1,38 +1,38 @@
 [
-    {
-        "question": "1. Apakah nomor pasca bayar dapat mengisi ulang dengan voucher data Unlimited?",
-        "answer": "Tidak bisa, Voucher Data Super 4G Unlimited hanya berlaku untuk nomor Smartfren Prabayar"
-    },
-    {
-        "question": "Apakah bisa voucher data Unlimited diisikan ke modem atau nomor EVO?",
-        "answer": "Tidak bisa, jika diisikan ke modem, maka pengisian akan gagal namun voucher tetap dapat diisikan ke nomor yang prabayar yang di gunakan di Smartphone"
-    },
-    {
-        "question": "3. Apakah setelah mengisi voucher data unlimited, nomor langsung bisa digunakan?",
-        "answer": "Setelah diisi ulang Voucher Data Super 4G Unlimited akan langsung menjadi paket internet dan sekaligus menambah masa aktif kartu"
-    },
-    {
-        "question": "4. Apakah ada perpanjangan otomatis untuk voucher data unlimited?",
-        "answer": "Tidak ada, masa aktif paket yang melekat pada voucher Unlimited sesuai dengan yang tercantum pada Vouhcer, untuk pembelian perpanjangan automatis bisa dibeli melalui applikasi MySmartfren atau USSI *123# dengan metoda pembayaran pemotongan pulsa atau saldo e-wallet (go pay, OVO)"
-    },
-    {
-        "question": "5. Apakah ada perbedaan FUP (fair usage policy) untuk tiap- tiap Voucher Super 4G Unlimited?",
-        "answer": "Berikut ini adalah informasi masa aktif & FUP dari masing -masing Voucher Super 4G Unlimited:\n\n\nVoucher data Unlimited 20Rb FUP 1GB/ hari masa aktif 7 hariVoucher data Unlimited 40Rb FUP 1GB/ hari masa aktif 14 hariVoucher data Unlimited Lite 55Rb FUP 0.5GB/ hari masa aktif 28 hariVoucher data Unlimited 80Rb FUP 1GB/ hari masa aktif 28 hari"
-    },
-    {
-        "question": "6. Apakah bisa voucher data unlimited diisi secara berulang sebelum masa aktif 28 harinya berakhir?",
-        "answer": "Bisa, pembelian voucher data unlimited bisa dibeli berulang sebelum masa aktif voucher pertama habis, namun pengisian tersebut tidak menambah FUP harian."
-    },
-    {
-        "question": "7. Apa yang terjadi ketika masa aktif paket data unlimited habis?",
-        "answer": "Ketika masa berlaku paket voucher habis maka pemakaian internet akan memotong kuota utama atau pulsa regular, jika tidak memiliki pulsa maka akses internet akan terhenti"
-    },
-    {
-        "question": "8. Apakah voucher data Unlimited dapat digunakan saat diluar negeri?",
-        "answer": "Tidak bisa, karena pada dasarnya paket unlimited hanya bisa digunakan diarea yang tercover jaringan Smartfren"
-    },
-    {
-        "question": "9. Apa yang terjadi ketika pemakaian mencapai batas pemakaian wajar harian?",
-        "answer": "Pada saat batas pemakaian wajar (FUP) per hari sudah tercapai, maka kecepatan akan disesuaikan menjadi 128 Kbps. Kecepatan normal (best effort) akan diberikan kembali pada keesokan harinya jam 00:00 (FUP di reset harian) namun sisa quota dari FUP sebelumnya tidak akan diakumulasi"
-    }
+  {
+    "question": "1. Apakah nomor pasca bayar dapat mengisi ulang dengan voucher data Unlimited?",
+    "answer": "Tidak bisa, Voucher Data Super 4G Unlimited hanya berlaku untuk nomor Smartfren Prabayar"
+  },
+  {
+    "question": "Apakah bisa voucher data Unlimited diisikan ke modem atau nomor EVO?",
+    "answer": "Tidak bisa, jika diisikan ke modem, maka pengisian akan gagal namun voucher tetap dapat diisikan ke nomor yang prabayar yang di gunakan di Smartphone"
+  },
+  {
+    "question": "3. Apakah setelah mengisi voucher data unlimited, nomor langsung bisa digunakan?",
+    "answer": "Setelah diisi ulang Voucher Data Super 4G Unlimited akan langsung menjadi paket internet dan sekaligus menambah masa aktif kartu"
+  },
+  {
+    "question": "4. Apakah ada perpanjangan otomatis untuk voucher data unlimited?",
+    "answer": "Tidak ada, masa aktif paket yang melekat pada voucher Unlimited sesuai dengan yang tercantum pada Vouhcer, untuk pembelian perpanjangan automatis bisa dibeli melalui applikasi MySmartfren atau USSI *123# dengan metoda pembayaran pemotongan pulsa atau saldo e-wallet (go pay, OVO)"
+  },
+  {
+    "question": "5. Apakah ada perbedaan FUP (fair usage policy) untuk tiap- tiap Voucher Super 4G Unlimited?",
+    "answer": "Berikut ini adalah informasi masa aktif & FUP dari masing -masing Voucher Super 4G Unlimited:\n\n\nVoucher data Unlimited 20Rb FUP 1GB/ hari masa aktif 7 hariVoucher data Unlimited 40Rb FUP 1GB/ hari masa aktif 14 hariVoucher data Unlimited Lite 55Rb FUP 0.5GB/ hari masa aktif 28 hariVoucher data Unlimited 80Rb FUP 1GB/ hari masa aktif 28 hari"
+  },
+  {
+    "question": "6. Apakah bisa voucher data unlimited diisi secara berulang sebelum masa aktif 28 harinya berakhir?",
+    "answer": "Bisa, pembelian voucher data unlimited bisa dibeli berulang sebelum masa aktif voucher pertama habis, namun pengisian tersebut tidak menambah FUP harian."
+  },
+  {
+    "question": "7. Apa yang terjadi ketika masa aktif paket data unlimited habis?",
+    "answer": "Ketika masa berlaku paket voucher habis maka pemakaian internet akan memotong kuota utama atau pulsa regular, jika tidak memiliki pulsa maka akses internet akan terhenti"
+  },
+  {
+    "question": "8. Apakah voucher data Unlimited dapat digunakan saat diluar negeri?",
+    "answer": "Tidak bisa, karena pada dasarnya paket unlimited hanya bisa digunakan diarea yang tercover jaringan Smartfren"
+  },
+  {
+    "question": "9. Apa yang terjadi ketika pemakaian mencapai batas pemakaian wajar harian?",
+    "answer": "Pada saat batas pemakaian wajar (FUP) per hari sudah tercapai, maka kecepatan akan disesuaikan menjadi 128 Kbps. Kecepatan normal (best effort) akan diberikan kembali pada keesokan harinya jam 00:00 (FUP di reset harian) namun sisa quota dari FUP sebelumnya tidak akan diakumulasi"
+  }
 ]

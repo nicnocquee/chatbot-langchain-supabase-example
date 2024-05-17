@@ -1,26 +1,26 @@
 [
-    {
-        "question": "1. Apa itu Layanan Minta Pulsa ?",
-        "answer": "Minta Pulsa adalah layanan bagi pelanggan smartfren yang tidak memiliki cukup pulsa dan ingin meminta pulsa ke kerabat terdekatnya yang sesama pengguna smartfren Prabayar."
-    },
-    {
-        "question": "2. Bagaimana cara menggunakan layanan ini ?",
-        "answer": "Untuk menggunakan layanan ini pelanggan Smartfren cukup kirim SMS ke 879 dengan format “MINTA.<No_Donatur>.<nominal> Contoh : Ketik MINTA.088XXXXXXXXX.5000 kirim SMS ke 879"
-    },
-    {
-        "question": "3. Berapa nominal yang bisa diminta?",
-        "answer": "Saat ini nominal yang bisa diminta oleh Requester adalah Rp.1 sampai dengan Rp.100,000 dengan biaya layanan Rp.200, namun jumlah pulsa yang akan diterima bergantung pada kesediaan dari Donatur."
-    },
-    {
-        "question": "4. Bagaimana biaya yang akan dikenakan kepada pengirim/donatur ?",
-        "answer": "Pengirim atau donator akan dikenakan biaya layanan sesuai dengan ketentuan dari layanan Transfer Pulsa."
-    },
-    {
-        "question": "5. Apakah ada batas atau limit pulsa yang bisa diminta ?",
-        "answer": "Saat ini batas limit pulsa yang bisa diminta adalah Rp.100,000 per transaksi."
-    },
-    {
-        "question": "6. Apakah masa aktif akan bertambah jika menerima transfer pulsa ?",
-        "answer": "Masa aktif akan bertambah jika menerima transfer pulsa sama seperti jika melakukan topup pulsa sesuai dengan tabel berikut:\n\n\n\n\n\nDisclaimer Layanan Minta Pulsa menggunakan shortcode yang sama dengan Transfer Pulsa yaitu 879 namun dengan format yang berbeda. Apabila Requester telah mengirimkan SMS ke 879 untuk layanan Minta Pulsa dan pulsanya telah terpotong Rp.200 namun tidak menerima Transfer Pulsa dari Donatur dikarenakan beberapa sebab seperti Donatur tidak bersedia atau pulsa Donatur tidak mencukupi, maka hal tersebut adalah hak dari Donatur dan tidak ada pengembalian dana Rp.200 untuk transaksi Minta Pulsa."
-    }
+  {
+    "question": "1. Apa itu Layanan Minta Pulsa ?",
+    "answer": "Minta Pulsa adalah layanan bagi pelanggan smartfren yang tidak memiliki cukup pulsa dan ingin meminta pulsa ke kerabat terdekatnya yang sesama pengguna smartfren Prabayar."
+  },
+  {
+    "question": "2. Bagaimana cara menggunakan layanan ini ?",
+    "answer": "Untuk menggunakan layanan ini pelanggan Smartfren cukup kirim SMS ke 879 dengan format “MINTA.<No_Donatur>.<nominal> Contoh : Ketik MINTA.088XXXXXXXXX.5000 kirim SMS ke 879"
+  },
+  {
+    "question": "3. Berapa nominal yang bisa diminta?",
+    "answer": "Saat ini nominal yang bisa diminta oleh Requester adalah Rp.1 sampai dengan Rp.100,000 dengan biaya layanan Rp.200, namun jumlah pulsa yang akan diterima bergantung pada kesediaan dari Donatur."
+  },
+  {
+    "question": "4. Bagaimana biaya yang akan dikenakan kepada pengirim/donatur ?",
+    "answer": "Pengirim atau donator akan dikenakan biaya layanan sesuai dengan ketentuan dari layanan Transfer Pulsa."
+  },
+  {
+    "question": "5. Apakah ada batas atau limit pulsa yang bisa diminta ?",
+    "answer": "Saat ini batas limit pulsa yang bisa diminta adalah Rp.100,000 per transaksi."
+  },
+  {
+    "question": "6. Apakah masa aktif akan bertambah jika menerima transfer pulsa ?",
+    "answer": "Masa aktif akan bertambah jika menerima transfer pulsa sama seperti jika melakukan topup pulsa sesuai dengan tabel berikut:\n\n\n\n\n\nDisclaimer Layanan Minta Pulsa menggunakan shortcode yang sama dengan Transfer Pulsa yaitu 879 namun dengan format yang berbeda. Apabila Requester telah mengirimkan SMS ke 879 untuk layanan Minta Pulsa dan pulsanya telah terpotong Rp.200 namun tidak menerima Transfer Pulsa dari Donatur dikarenakan beberapa sebab seperti Donatur tidak bersedia atau pulsa Donatur tidak mencukupi, maka hal tersebut adalah hak dari Donatur dan tidak ada pengembalian dana Rp.200 untuk transaksi Minta Pulsa."
+  }
 ]
