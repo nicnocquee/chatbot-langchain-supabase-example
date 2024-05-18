@@ -7,7 +7,7 @@ import { ChatOpenAI, OpenAIEmbeddings } from "@langchain/openai";
 import { PromptTemplate } from "@langchain/core/prompts";
 import { SupabaseVectorStore } from "@langchain/community/vectorstores/supabase";
 import { Document } from "@langchain/core/documents";
-import { RunnableSequence } from "@langchain/core/runnables";
+import { RunnableSequence, RunnableMap } from "@langchain/core/runnables";
 import {
   BytesOutputParser,
   StringOutputParser,
@@ -33,16 +33,16 @@ const formatVercelMessages = (chatHistory: VercelChatMessage[]) => {
   return formattedDialogueTurns.join("\n");
 };
 
-// const classificationPrompt =
-//   PromptTemplate.fromTemplate(`Given the user question below, classify it as either being about \`troubleshooting\` or \`product question\`.
+const classificationPrompt =
+  PromptTemplate.fromTemplate(`Given the user question below, classify it as either being about \`troubleshooting\` or \`product\`.
 
-// Do not respond with more than one word.
+Do not respond with more than one word.
 
-// <question>
-// {question}
-// </question>
+<question>
+{question}
+</question>
 
-// Classification:`);
+Classification:`);
 
 const CONDENSE_QUESTION_TEMPLATE = `Given the following conversation and a follow up question, rephrase the follow up question to be a standalone question, in its original language.
 
@@ -135,31 +135,36 @@ export async function POST(req: NextRequest) {
       resolveWithDocuments = resolve;
     });
 
-    const retriever = vectorstore.asRetriever({
-      verbose: true,
-      callbacks: [
-        {
-          handleRetrieverEnd(documents) {
-            resolveWithDocuments(documents);
-          },
-        },
-      ],
-    });
-
-    const retrievalChain = retriever.pipe(combineDocumentsFn);
-
-    // // Classification chain
-    // const classificationChain = RunnableSequence.from([
-    //   classificationPrompt,
-    //   model,
-    //   new StringOutputParser(),
-    // ]);
+    // Classification chain
+    const classificationChain = RunnableSequence.from([
+      classificationPrompt,
+      model,
+      new StringOutputParser(),
+    ]);
 
     const answerChain = RunnableSequence.from([
       {
         context: RunnableSequence.from([
-          (input) => input.question,
-          retrievalChain,
+          RunnableMap.from({
+            question: (input: any) => input.question,
+            filter: classificationChain,
+          }),
+          (input) => {
+            const { question, filter } = input;
+            const retriever = vectorstore.asRetriever({
+              verbose: true,
+              filter: { type: filter },
+              callbacks: [
+                {
+                  handleRetrieverEnd(documents) {
+                    resolveWithDocuments(documents);
+                  },
+                },
+              ],
+            });
+
+            return retriever.pipe(combineDocumentsFn).invoke(question);
+          },
         ]),
         chat_history: (input) => input.chat_history,
         question: (input) => input.question,
