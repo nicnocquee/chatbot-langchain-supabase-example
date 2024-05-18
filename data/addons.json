@@ -1,27 +1,27 @@
 [
   {
-    "name": "Kuota Youtube1.1 GB 1.1 GB",
+    "name": "Kuota Youtube 1.1 GB 1.1 GB",
     "details": ["0.1 GBKuota 24 Jam", "1 GBKuota Khusus aplikasi Youtube"],
     "price": "Rp3.500",
     "validity": "Berlaku 1 hari",
     "product_url": ""
   },
   {
-    "name": "Kuota Youtube1.5 GB 1.5 GB",
+    "name": "Kuota Youtube 1.5 GB 1.5 GB",
     "details": ["1.5 GBKhusus Aplikasi Youtube"],
     "price": "Rp5.500",
     "validity": "Berlaku 7 hari",
     "product_url": ""
   },
   {
-    "name": "Kuota Youtube3.5 GB 3.5 GB",
+    "name": "Kuota Youtube 3.5 GB 3.5 GB",
     "details": ["500 MBKuota 24 Jam", "3 GBKuota Khusus aplikasi Youtube"],
     "price": "Rp9.000",
     "validity": "Berlaku 3 hari",
     "product_url": ""
   },
   {
-    "name": "Kuota Youtube8 GB 8 GB",
+    "name": "Kuota Youtube 8 GB 8 GB",
     "details": ["1 GBKuota 24 Jam", "7 GBKuota Khusus aplikasi Youtube"],
     "price": "Rp16.500",
     "validity": "Berlaku 7 hari",
@@ -58,7 +58,7 @@
     "product_url": ""
   },
   {
-    "name": "Vidio PlatinumMobile Mobile",
+    "name": "Vidio Platinum Mobile Mobile",
     "details": ["2 GBKuota 24 Jam", "5 GBKuota Malam"],
     "price": "Rp27.500",
     "validity": "Berlaku 30 hari",
@@ -72,7 +72,7 @@
     "product_url": ""
   },
   {
-    "name": "VIU1 Hari 1 Hari",
+    "name": "VIU 1 Hari 1 Hari",
     "details": [
       "700 MBKhusus Aplikasi VIU",
       "VIU PremiumGratis Langganan VIU Premium 1 Hari"
@@ -82,7 +82,7 @@
     "product_url": ""
   },
   {
-    "name": "VIU7 Hari 1GB 7 Hari 1GB",
+    "name": "VI U7 Hari 1GB 7 Hari 1GB",
     "details": [
       "1 GBKhusus Aplikasi VIU",
       "VIU PremiumGratis Langganan VIU Premium 7 Hari"
@@ -92,7 +92,7 @@
     "product_url": ""
   },
   {
-    "name": "VIU28 Hari 28 Hari",
+    "name": "VIU 28 Hari 28 Hari",
     "details": [
       "3 GBKhusus Aplikasi VIU",
       "VIU PremiumGratis Langganan VIU Premium 28 Hari"
@@ -102,21 +102,21 @@
     "product_url": ""
   },
   {
-    "name": "Kuota Netflix1.5 GB 1.5 GB",
-    "details": ["1.5 GBKhusus Aplikasi Netflix"],
+    "name": "Kuota Netflix 1.5 GB 1.5 GB",
+    "details": ["1.5 GB Khusus Aplikasi Netflix"],
     "price": "Rp5.500",
     "validity": "Berlaku 7 hari",
     "product_url": ""
   },
   {
-    "name": "Kuota Vidio1.5 GB 1.5 GB",
+    "name": "Kuota Vidio 1.5 GB 1.5 GB",
     "details": ["1.5 GBKhusus Aplikasi Vidio"],
     "price": "Rp5.500",
     "validity": "Berlaku 7 hari",
     "product_url": ""
   },
   {
-    "name": "Kuota Nonton1.5 GB 1.5 GB",
+    "name": "Kuota Nonton 1.5 GB 1.5 GB",
     "details": [
       "1.25 GBKhusus Aplikasi Video Streaming",
       "250 MBKhusus Aplikasi Youtube"
@@ -126,7 +126,7 @@
     "product_url": ""
   },
   {
-    "name": "Kuota Nonton3.5 GB 3.5 GB",
+    "name": "Kuota Nonton 3.5 GB 3.5 GB",
     "details": [
       "3 GBKhusus Aplikasi Video Streaming",
       "500 MBKhusus Aplikasi Youtube"
@@ -155,30 +155,30 @@
     "product_url": ""
   },
   {
-    "name": "Internet MalamUnlimited 28 Hari Unlimited 28 Hari",
+    "name": "Internet Malam Unlimited 28 Hari Unlimited 28 Hari",
     "details": [
-      "Internet UnlimitedBebas Semua Aplikasi 01:00-05:00 Full Speed"
+      "Internet Unlimite dBebas Semua Aplikasi 01:00-05:00 Full Speed"
     ],
     "price": "Rp11.000",
     "validity": "Berlaku 28 hari",
     "product_url": ""
   },
   {
-    "name": "Unlimited BoosterHarian Harian",
-    "details": ["Unlimited 24 JamBatas Pemakaian Wajar 500 MB/Hari"],
+    "name": "Unlimited Booster Harian Harian",
+    "details": ["Unlimited 24 Jam Batas Pemakaian Wajar 500 MB/Hari"],
     "price": "Rp2.500",
     "validity": "Berlaku 1 hari",
     "product_url": ""
   },
   {
-    "name": "Unlimited BoosterHarian Harian",
-    "details": ["Unlimited 24 JamBatas Pemakaian Wajar 500 MB/Hari"],
+    "name": "Unlimited Booster Harian Harian",
+    "details": ["Unlimited 24 Jam Batas Pemakaian Wajar 500 MB/Hari"],
     "price": "Rp5.500",
     "validity": "Berlaku 3 hari",
     "product_url": ""
   },
   {
-    "name": "Unlimited BoosterMingguan Mingguan",
+    "name": "Unlimited Booster Mingguan Mingguan",
     "details": ["Unlimited 24 JamBatas Pemakaian Wajar 500 MB/Hari"],
     "price": "Rp11.000",
     "validity": "Berlaku 7 hari",

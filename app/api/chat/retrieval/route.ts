@@ -42,7 +42,7 @@ const formatVercelMessages = (chatHistory: VercelChatMessage[]) => {
 const classificationPrompt =
   PromptTemplate.fromTemplate(`Given the user question below, classify it as either being about \`troubleshooting\`, \`product\`, or  \`product_search_by_price\`.
 
-Respond \`troubleshooting\` when the user is asking for help with a problem.
+Respond \`troubleshooting\` when the user is asking for help with a problem or how to do something.
 
 Respond \`product\` when the user is asking for information about a product or service, or a list of products.
 
@@ -79,11 +79,12 @@ You are a smartfren customer care agent. Answer the question in the same languag
   {chat_history}
 </chat_history>
 
+
 If the answer is not contained in the context, apologize that you cannot help with the inquiry and ask if they have any questions about Smartfren.
 
 If the user complains or asks for help, show some sympathy and apologize for the inconvenience first then answer the question. Otherwise, just answer the question.
 
-If the user asks for a product and you know the answer, show enthusiasm, then answer the question.
+If the user asks for a product or a list of products, and you can find it in the context, then answer the question. But if the products is not in the context, recommend a product that you know is available based on the context.
 
 Be casual. Don't sound too formal.
 
