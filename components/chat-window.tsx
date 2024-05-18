@@ -163,7 +163,7 @@ export function ChatWindow(props: {
 
   return (
     <div
-      className={`flex flex-col items-center w-full max-w-md mx-auto p-4 md:p-8 rounded grow overflow-hidden ${
+      className={`flex flex-col items-center w-full max-w-lg mx-auto p-4 md:p-8 rounded grow overflow-hidden ${
         messages.length > 0 ? "border" : ""
       }`}
     >
@@ -177,7 +177,7 @@ export function ChatWindow(props: {
       >
         {messages.length > 0
           ? [...messages].reverse().map((m, i) => {
-              const sourceKey = (messages.length - 1 - i).toString();
+              // const sourceKey = (messages.length - 1 - i).toString();
               return m.role === "system" ? (
                 <IntermediateStep key={m.id} message={m}></IntermediateStep>
               ) : (
