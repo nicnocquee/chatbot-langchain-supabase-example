@@ -132,6 +132,7 @@ export const main = async () => {
             );
           } else if (name && details) {
             const { price, product_url, validity, image_url } = item;
+
             documents.push(
               new Document({
                 pageContent: [
@@ -153,6 +154,13 @@ export const main = async () => {
                   filename: theFilePath,
                   product: item,
                   topic,
+                  price:
+                    parseInt(
+                      price
+                        ?.replace("Rp", "")
+                        .replace(/\"/g, "")
+                        .replace(/\./g, ""),
+                    ) || 0,
                   type,
                 },
               }),
