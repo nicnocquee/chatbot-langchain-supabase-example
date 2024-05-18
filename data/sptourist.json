@@ -1,0 +1,42 @@
+[
+  {
+    "question": "When did the validity of benefit started ?",
+    "answer": "Once you click “ACTIVATE” on the registration page , the validity has started. It is recommended to do registration near your departure date and make sure the data you submit are all correct."
+  },
+  {
+    "question": "Can I refund my purchase if my data has been denied?",
+    "answer": "Unfortunately, you can not refund your purchase even if your data is rejected. Make sure to input your data correctly and provide the necessary documents."
+  },
+  {
+    "question": "How can I purchase smartfren eSIM for tourists?",
+    "answer": "You can purchase our eSIM through our website https://www.smartfren.com/en/sptourist/, and complete the payment online using your preferred payment method. Then proceed to registration & online activation by clicking the link sent to your email."
+  },
+  {
+    "question": "What does “Instant Online” mean?",
+    "answer": "Tourists can purchase and activate eSIM fully online without having to visit any offline stores. Just make sure that your email is correct so we can send you the eSIM activation code."
+  },
+  {
+    "question": "What devices support eSIM?",
+    "answer": "The list of devices that supports eSIM can be checked here https://s.id/eSIMDevice"
+  },
+  {
+    "question": "I bought the eSIM Tourist Unlimited Package and it has FUP/ day. What is FUP?",
+    "answer": "FUP (Fair Usage Policy) is a limit on internet speed for heavy users. This is done to prevent overuse/ abuse of services by a few users which could lead to unavailability of services for other users."
+  },
+  {
+    "question": "Why do I need to submit my IMEI and passport information?",
+    "answer": "As per Indonesian government regulations, all forms of cell phones, handheld computers, and tablets are mandatory to register for IMEI. In addition, foreigners are mandated to prepare their valid identity document (passport/ KITAS/ KITAP) for prepaid registration."
+  },
+  {
+    "question": "How long do I have to wait for my card to be activated?",
+    "answer": "Verification process can be take up to 24 hours. Our business hours are from 7 AM to 11 PM (GMT +7). Any activation made after 11 PM will be handled during the next business hours."
+  },
+  {
+    "question": "My data registration has been declined. What do I do now?",
+    "answer": "Unfortunately, if your registration process failed, you have to visit one of our galleries, which you can find here s.id/SmartfrenGaleri . Make sure to prepare your valid identity document and the eSIM activation QR email."
+  },
+  {
+    "question": "Is the smartfren eSIM tourist connection available throughout Indonesia?",
+    "answer": "Our eSIM can be used throughout the popular destination spots in Indonesia. Check here s.id/SmartfrenCoverage for our coverage"
+  }
+]

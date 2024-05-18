@@ -33,16 +33,16 @@ const formatVercelMessages = (chatHistory: VercelChatMessage[]) => {
   return formattedDialogueTurns.join("\n");
 };
 
-const classificationPrompt =
-  PromptTemplate.fromTemplate(`Given the user question below, classify it as either being about \`troubleshooting\` or \`product question\`.
+// const classificationPrompt =
+//   PromptTemplate.fromTemplate(`Given the user question below, classify it as either being about \`troubleshooting\` or \`product question\`.
 
-Do not respond with more than one word.
+// Do not respond with more than one word.
 
-<question>
-{question}
-</question>
+// <question>
+// {question}
+// </question>
 
-Classification:`);
+// Classification:`);
 
 const CONDENSE_QUESTION_TEMPLATE = `Given the following conversation and a follow up question, rephrase the follow up question to be a standalone question, in its original language.
 
@@ -96,6 +96,7 @@ export async function POST(req: NextRequest) {
     const model = new ChatOpenAI({
       modelName: process.env.MODEL_NAME,
       temperature: 0.2,
+      verbose: true,
     });
 
     const client = createClient(
@@ -125,7 +126,7 @@ export async function POST(req: NextRequest) {
     const standaloneQuestionChain = RunnableSequence.from([
       condenseQuestionPrompt,
       model,
-      new StringOutputParser(),
+      new StringOutputParser({ verbose: true }),
     ]);
 
     let resolveWithDocuments: (value: Document[]) => void;
@@ -134,6 +135,7 @@ export async function POST(req: NextRequest) {
     });
 
     const retriever = vectorstore.asRetriever({
+      verbose: true,
       callbacks: [
         {
           handleRetrieverEnd(documents) {
@@ -146,11 +148,11 @@ export async function POST(req: NextRequest) {
     const retrievalChain = retriever.pipe(combineDocumentsFn);
 
     // // Classification chain
-    const classificationChain = RunnableSequence.from([
-      classificationPrompt,
-      model,
-      new StringOutputParser(),
-    ]);
+    // const classificationChain = RunnableSequence.from([
+    //   classificationPrompt,
+    //   model,
+    //   new StringOutputParser(),
+    // ]);
 
     const answerChain = RunnableSequence.from([
       {
@@ -171,7 +173,7 @@ export async function POST(req: NextRequest) {
         chat_history: (input) => input.chat_history,
       },
       answerChain,
-      new BytesOutputParser(),
+      new BytesOutputParser({ verbose: true }),
     ]);
 
     const stream = await conversationalRetrievalQAChain.stream({

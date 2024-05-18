@@ -80,6 +80,8 @@ export function ChatWindow(props: {
       }
     },
     onError: (e) => {
+      console.log(e);
+      console.log("are we here?");
       toast(e.message, {
         theme: "dark",
       });
@@ -149,6 +151,7 @@ export function ChatWindow(props: {
         ]);
       } else {
         if (json.error) {
+          console.log("json.error");
           toast(json.error, {
             theme: "dark",
           });

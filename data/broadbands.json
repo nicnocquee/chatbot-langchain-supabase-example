@@ -1,0 +1,71 @@
+[
+  {
+    "name": "Prolink PRT701",
+    "description": "Koneksi internet stabil 24 jam dimana saja hingga 16 pengguna",
+    "details": [
+      "SpesifikasiBaterai 1500 mAH",
+      "KuotaHingga 60 GB",
+      "Pilihan PaketPrabayar"
+    ],
+    "price": "Rp705.000",
+    "product_url": "https://www.smartfren.com/shop/broadband/Prolink-PRT701",
+    "image_url": "https://www.smartfren.com/app/uploads/2022/10/392x160px_Prolink.jpg"
+  },
+  {
+    "name": "Huawei E5576",
+    "description": "Koneksi internet stabil 24 jam dimana saja hingga 16 pengguna",
+    "details": [
+      "SpesifikasiBaterai 1500 mAH",
+      "KuotaHingga 60 GB",
+      "Pilihan PaketPrabayar"
+    ],
+    "price": "Rp759.000",
+    "product_url": "https://www.smartfren.com/shop/broadband/Huawei-E5576",
+    "image_url": "https://www.smartfren.com/app/uploads/2022/10/392x160px_Huawei.jpg"
+  },
+  {
+    "name": "Advan Router CPE Start",
+    "description": "Koneksi internet stabil 24 jam dimana saja hingga 16 pengguna",
+    "details": [
+      "SpesifikasiBaterai 1500 mAH",
+      "KuotaHingga 1200 GB",
+      "Pilihan PaketPrabayar"
+    ],
+    "price": "Rp899.000",
+    "product_url": "https://www.smartfren.com/shop/broadband/advan-cpe",
+    "image_url": "https://www.smartfren.com/app/uploads/2021/06/Product-Banner-Advan-Router-CPE-Start.jpg"
+  },
+  {
+    "name": "BARDI Smart Bulb 9W-RGBWW",
+    "description": "Bohlam pintar yang bisa dikendalikan melalui smartphone-mu",
+    "details": [
+      "Bardi Smart Bulb 9W-RGBWW9W – RGB hingga 16 juta warna",
+      "Kartu PerdanaUnlimited MAXI 28 Hari atau Kuota Nonstop 43 GB"
+    ],
+    "price": "Rp176.900",
+    "product_url": "https://www.smartfren.com/shop/broadband/bardi-smart-bulb/",
+    "image_url": "https://www.smartfren.com/app/uploads/2021/09/Smart-Light-Bulb-9W-RGBWW.jpg"
+  },
+  {
+    "name": "BARDI IPCam Indoor Static",
+    "description": "Kamera pintar untuk pengawasan rumah melalui kendali smartphone",
+    "details": [
+      "Bardi IPCam Indoor StaticOrientasi hingga 180°",
+      "Kartu PerdanaUnlimited MAXI 28 Hari atau Kuota Nonstop 43 GB"
+    ],
+    "price": "Rp335.900",
+    "product_url": "https://www.smartfren.com/shop/broadband/bardi-ipcam-indoor-stc/",
+    "image_url": "https://www.smartfren.com/app/uploads/2021/09/IP-Camera-Indoor-STC.jpg"
+  },
+  {
+    "name": "BARDI IPCam Indoor PTZ",
+    "description": "Kamera pintar untuk pengawasan rumah melalui kendali smartphone",
+    "details": [
+      "BARDI IPCam Indoor PTZOrientasi hingga 360°",
+      "Kartu PerdanaUnlimited MAXI 28 Hari atau Kuota Nonstop 43 GB"
+    ],
+    "price": "Rp451.900",
+    "product_url": "https://www.smartfren.com/shop/broadband/bardi-ipcam-indoor-ptz/",
+    "image_url": "https://www.smartfren.com/app/uploads/2021/09/IP-Camera-Indoor-PTZ.jpg"
+  }
+]
