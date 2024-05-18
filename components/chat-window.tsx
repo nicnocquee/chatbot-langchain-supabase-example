@@ -67,12 +67,17 @@ export function ChatWindow(props: {
   } = useChat({
     api: endpoint,
     onResponse(response) {
+      console.log("1");
       const sourcesHeader = response.headers.get("x-sources");
+      console.log("2");
       const sources = sourcesHeader
         ? JSON.parse(Buffer.from(sourcesHeader, "base64").toString("utf8"))
         : [];
+      console.log("3");
       const messageIndexHeader = response.headers.get("x-message-index");
+      console.log("4");
       if (sources.length && messageIndexHeader !== null) {
+        console.log("5");
         setSourcesForMessages({
           ...sourcesForMessages,
           [messageIndexHeader]: sources,
