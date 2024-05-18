@@ -154,63 +154,63 @@
     "product_url": "https://www.smartfren.com/product-details/?post=Paket-data-unlimited-nonstop-60-gb"
   },
   {
-    "name": "Paket DataKuota 10 Plus Kuota 10 Plus",
+    "name": "Paket Data Kuota 10 Plus Kuota 10 Plus",
     "details": ["2 GBKuota Utama", "8 GBKuota Lokal", "2 GBKuota Malam"],
     "price": "Rp 19.000",
     "validity": "Berlaku 3 hari",
     "product_url": "https://www.smartfren.com/product-details/?post=paket-data-kuota-10-plus/"
   },
   {
-    "name": "Paket DataKuota 15 Plus Kuota 15 Plus",
+    "name": "Paket Data Kuota 15 Plus Kuota 15 Plus",
     "details": ["3 GBKuota Utama", "12 GBKuota Lokal", "3 GBKuota Malam"],
     "price": "Rp 25.000",
     "validity": "Berlaku 5 hari",
     "product_url": "https://www.smartfren.com/product-details/?post=paket-data-kuota-15-plus/"
   },
   {
-    "name": "Paket DataKuota 25 Plus Kuota 25 Plus",
+    "name": "Paket Data Kuota 25 Plus Kuota 25 Plus",
     "details": ["5 GBKuota Utama", "20 GBKuota Lokal", "5 GBKuota Malam"],
     "price": "Rp 36.000",
     "validity": "Berlaku 7 hari",
     "product_url": "https://www.smartfren.com/product-details/?post=paket-data-kuota-25-plus/"
   },
   {
-    "name": "Paket DataKuota 50 Plus Kuota 50 Plus",
+    "name": "Paket Data Kuota 50 Plus Kuota 50 Plus",
     "details": ["12 GBKuota Utama", "38 GBKuota Lokal", "10 GBKuota Malam"],
     "price": "Rp 67.000",
     "validity": "Berlaku 14 hari",
     "product_url": "https://www.smartfren.com/product-details/?post=paket-data-kuota-50-plus/"
   },
   {
-    "name": "Paket DataKuota 100 GB Kuota 100 GB",
+    "name": "Paket Data Kuota 100 GB Kuota 100 GB",
     "details": ["25 GBKuota Utama", "75 GBKuota Lokal"],
     "price": "Rp100.000",
     "validity": "Berlaku 30 hari",
     "product_url": null
   },
   {
-    "name": "Paket DataKuota 200 GB Kuota 200 GB",
+    "name": "Paket Data Kuota 200 GB Kuota 200 GB",
     "details": ["60 GBKuota Utama", "140 GBKuota Lokal"],
     "price": "Rp 200.000",
     "validity": "Berlaku 30 hari",
     "product_url": null
   },
   {
-    "name": "Paket DataKuota 300 GB Kuota 300 GB",
+    "name": "Paket Data Kuota 300 GB Kuota 300 GB",
     "details": ["80 GBKuota Utama", "220 GBKuota Lokal"],
     "price": "Rp 300.000",
     "validity": "Berlaku 30 hari",
     "product_url": null
   },
   {
-    "name": "Paket DataKuota 500 GB Kuota 500 GB",
+    "name": "Paket Data Kuota 500 GB Kuota 500 GB",
     "details": ["150 GBKuota Utama", "350 GBKuota Lokal"],
     "price": "Rp 500.000",
     "validity": "Berlaku 30 hari",
     "product_url": null
   },
   {
-    "name": "Paket DataKuota M Kuota M",
+    "name": "Paket Data Kuota M Kuota M",
     "details": [
       "6 GBKuota Utama",
       "5 GBKuota Aplikasi",
@@ -221,7 +221,7 @@
     "product_url": null
   },
   {
-    "name": "Paket DataKuota L Kuota L",
+    "name": "Paket Data Kuota L Kuota L",
     "details": [
       "12 GBKuota Utama",
       "10 GBKuota Aplikasi",
@@ -232,7 +232,7 @@
     "product_url": null
   },
   {
-    "name": "Paket DataKuota 2L Kuota 2L",
+    "name": "Paket Data Kuota 2L Kuota 2L",
     "details": [
       "20 GBKuota Utama",
       "10 GBKuota Aplikasi",
@@ -243,7 +243,7 @@
     "product_url": null
   },
   {
-    "name": "Paket DataKuota 3L Kuota 3L",
+    "name": "Paket Data Kuota 3L Kuota 3L",
     "details": [
       "32 GBKuota Utama",
       "15 GBKuota Aplikasi",
@@ -254,7 +254,7 @@
     "product_url": null
   },
   {
-    "name": "Paket DataKuota 4L Kuota 4L",
+    "name": "Paket Data Kuota 4L Kuota 4L",
     "details": [
       "44 GBKuota Utama",
       "15 GBKuota Aplikasi",
