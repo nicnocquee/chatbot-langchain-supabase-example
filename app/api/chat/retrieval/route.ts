@@ -33,16 +33,16 @@ const formatVercelMessages = (chatHistory: VercelChatMessage[]) => {
   return formattedDialogueTurns.join("\n");
 };
 
-// const classificationPrompt =
-//   PromptTemplate.fromTemplate(`Given the user question below, classify it as either being about \`ganti nomor\`, \`internet lemot\`, or \`kuota 100 GB\`.
+const classificationPrompt =
+  PromptTemplate.fromTemplate(`Given the user question below, classify it as either being about \`troubleshooting\` or \`product question\`.
 
-// Do not respond with more than one word.
+Do not respond with more than one word.
 
-// <question>
-// {question}
-// </question>
+<question>
+{question}
+</question>
 
-// Classification:`);
+Classification:`);
 
 const CONDENSE_QUESTION_TEMPLATE = `Given the following conversation and a follow up question, rephrase the follow up question to be a standalone question, in its original language.
 
@@ -146,11 +146,11 @@ export async function POST(req: NextRequest) {
     const retrievalChain = retriever.pipe(combineDocumentsFn);
 
     // // Classification chain
-    // const classificationChain = RunnableSequence.from([
-    //   classificationPrompt,
-    //   model,
-    //   new StringOutputParser(),
-    // ]);
+    const classificationChain = RunnableSequence.from([
+      classificationPrompt,
+      model,
+      new StringOutputParser(),
+    ]);
 
     const answerChain = RunnableSequence.from([
       {
