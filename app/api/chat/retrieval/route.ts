@@ -7,11 +7,7 @@ import { ChatOpenAI, OpenAI, OpenAIEmbeddings } from "@langchain/openai";
 import { PromptTemplate } from "@langchain/core/prompts";
 import { SupabaseVectorStore } from "@langchain/community/vectorstores/supabase";
 import { Document } from "@langchain/core/documents";
-import {
-  RunnableSequence,
-  RunnableMap,
-  RunnableBranch,
-} from "@langchain/core/runnables";
+import { RunnableSequence, RunnableBranch } from "@langchain/core/runnables";
 import {
   BytesOutputParser,
   StringOutputParser,
@@ -40,7 +36,7 @@ const formatVercelMessages = (chatHistory: VercelChatMessage[]) => {
 };
 
 const classificationPrompt =
-  PromptTemplate.fromTemplate(`Given the user question below, classify it as either being about \`troubleshooting\`, \`product\`, or  \`product_search_by_price\`.
+  PromptTemplate.fromTemplate(`Given the user question and chat history below, classify it as either being about \`troubleshooting\`, \`product\`, or  \`product_search_by_price\`.
 
 Respond \`troubleshooting\` when the user is asking for help with a problem or how to do something.
 
@@ -53,6 +49,10 @@ Do not respond with more than one word.
 <question>
 {question}
 </question>
+
+<chat_history>
+  {chat_history}
+</chat_history>
 
 Classification:`);
 
