@@ -137,6 +137,7 @@ export const main = async () => {
               new Document({
                 pageContent: [
                   `Product: ${name}`,
+                  `Details: ${details.join(". ")}`,
                   price && price.length > 0 ? `Price: ${price}` : null,
                   validity && validity.length > 0
                     ? `Validity: ${validity}`
