@@ -119,10 +119,7 @@ export const main = async () => {
           if (question && answer) {
             documents.push(
               new Document({
-                pageContent: `About ${theFilePath.replace(
-                  ".json",
-                  "",
-                )}: ${question}\n${answer}`,
+                pageContent: `${question}\n${answer}`,
                 metadata: {
                   filename: theFilePath,
                   topic,

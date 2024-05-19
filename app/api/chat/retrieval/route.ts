@@ -7,13 +7,14 @@ import { ChatOpenAI, OpenAI, OpenAIEmbeddings } from "@langchain/openai";
 import { PromptTemplate } from "@langchain/core/prompts";
 import { SupabaseVectorStore } from "@langchain/community/vectorstores/supabase";
 import { Document } from "@langchain/core/documents";
-import { RunnableSequence, RunnableBranch } from "@langchain/core/runnables";
+import { RunnableSequence } from "@langchain/core/runnables";
 import {
   BytesOutputParser,
   StringOutputParser,
 } from "@langchain/core/output_parsers";
 import { SelfQueryRetriever } from "langchain/retrievers/self_query";
 import { SupabaseTranslator } from "langchain/retrievers/self_query/supabase";
+import { MultiQueryRetriever } from "langchain/retrievers/multi_query";
 
 export const runtime = "edge";
 
@@ -35,29 +36,6 @@ const formatVercelMessages = (chatHistory: VercelChatMessage[]) => {
   return formattedDialogueTurns.join("\n");
 };
 
-const classificationPrompt =
-  PromptTemplate.fromTemplate(`Given the user question and chat history below, classify it as either being about \`troubleshooting\`, \`product\`, or  \`product_search_by_price\`.
-
-Respond \`troubleshooting\` when the user is asking for help with a problem or how to do something.
-
-Respond \`product\` when the user is asking for information about a product or service, or a list of products.
-
-Respond \`product_search_by_price\` when the user is asking for information about a product or service and is looking for a specific price.
-
-Do not respond with more than one word.
-
-<question>
-{question}
-</question>
-
-<chat_history>
-  {chat_history}
-</chat_history>
-
-Make sure you consider the chat history when classifying the question.
-
-Classification:`);
-
 const CONDENSE_QUESTION_TEMPLATE = `Given the chat history and a follow up question, rephrase the follow up question to be a standalone question that includes clear and informative subject, object, and other information, in its original language.
 
 <chat_history>
@@ -65,6 +43,9 @@ const CONDENSE_QUESTION_TEMPLATE = `Given the chat history and a follow up quest
 </chat_history>
 
 Follow Up Input: {question}
+
+If the follow up input is not a question, or cannot be interpreted as a question, respond with "[NOT_QUESTION] {question}".
+
 Standalone question:`;
 const condenseQuestionPrompt = PromptTemplate.fromTemplate(
   CONDENSE_QUESTION_TEMPLATE,
@@ -88,7 +69,11 @@ If the user complains or asks for help, show some sympathy and apologize for the
 
 If the user asks for a product or a list of products, and you can find it in the context, then answer the question. But if the products is not in the context, recommend a product that you know is available based on the context.
 
+Never mention about the context.
+
 Be casual. Don't sound too formal.
+
+If the question starts with [NOT_QUESTION], then reply appropriately.
 
 Question: {question}
 `;
@@ -168,38 +153,10 @@ export async function POST(req: NextRequest) {
     const documentPromise = new Promise<Document[]>((resolve) => {
       resolveWithDocuments = resolve;
     });
-
-    // Classification chain
-    const classificationChain = RunnableSequence.from([
-      classificationPrompt,
-      model,
-      new StringOutputParser(),
-    ]);
-
-    const answerChain = RunnableSequence.from([
-      {
-        context: (input) => {
-          const { question, topic } = input;
-          const retriever = vectorstore.asRetriever({
-            verbose: true,
-            filter: { type: topic },
-            callbacks: [
-              {
-                handleRetrieverEnd(documents) {
-                  resolveWithDocuments(documents);
-                },
-              },
-            ],
-          });
-
-          return retriever.pipe(combineDocumentsFn).invoke(question);
-        },
-        chat_history: (input) => input.chat_history,
-        question: (input) => input.question,
-      },
-      answerPrompt,
-      model,
-    ]);
+    let resolveWithProducts: (value: Document[]) => void;
+    const productsPromise = new Promise<Document[]>((resolve) => {
+      resolveWithProducts = resolve;
+    });
 
     const attributeInfo: AttributeInfo[] = [
       {
@@ -214,10 +171,15 @@ export async function POST(req: NextRequest) {
       vectorStore: vectorstore,
       documentContents: "Summary of the product",
       attributeInfo,
+      searchParams: {
+        filter: {
+          type: "product",
+        },
+      },
       callbacks: [
         {
           handleRetrieverEnd(documents) {
-            resolveWithDocuments(documents);
+            resolveWithProducts(documents);
           },
         },
       ],
@@ -229,25 +191,44 @@ export async function POST(req: NextRequest) {
       verbose: true,
     });
 
-    const answerProductSearchByPriceChain = RunnableSequence.from([
+    const answerChain = RunnableSequence.from([
       {
-        context: (input) =>
+        products: (input) =>
           selfQueryRetriever.pipe(combineDocumentsFn).invoke(input.question),
+        troubleshootings: (input) => {
+          const { question } = input;
+          const retriever = MultiQueryRetriever.fromLLM({
+            llm: model,
+            retriever: vectorstore.asRetriever({
+              verbose: true,
+              k: 10,
+              searchType: "similarity",
+              filter: { type: "troubleshooting" },
+              callbacks: [
+                {
+                  handleRetrieverEnd(documents) {
+                    resolveWithDocuments(documents);
+                  },
+                },
+              ],
+            }),
+            verbose: true,
+          });
+
+          return retriever.pipe(combineDocumentsFn).invoke(question);
+        },
         chat_history: (input) => input.chat_history,
         question: (input) => input.question,
       },
-      answerProductSearchByPricePrompt,
+      {
+        context: (input) => {
+          return `Related information based on user's question: ${input.troubleshootings}\n\nRelated products based on user's question: ${input.products}`;
+        },
+        chat_history: (input) => input.chat_history,
+        question: (input) => input.question,
+      },
+      answerPrompt,
       model,
-    ]);
-
-    const branch = RunnableBranch.from([
-      [
-        (x: { topic: string; question: string; chat_story: string }) =>
-          x.topic.toLowerCase().includes("product_search_by_price"),
-        (input) => answerProductSearchByPriceChain.invoke(input),
-      ],
-      (x: { topic: string; question: string; chat_story: string }) =>
-        answerChain.invoke(x),
     ]);
 
     const conversationalRetrievalQAChain = RunnableSequence.from([
@@ -255,12 +236,7 @@ export async function POST(req: NextRequest) {
         question: standaloneQuestionChain,
         chat_history: (input) => input.chat_history,
       },
-      {
-        question: (input) => input.question,
-        topic: classificationChain,
-        chat_history: (input) => input.chat_history,
-      },
-      branch,
+      answerChain,
       new BytesOutputParser({ verbose: true }),
     ]);
 
