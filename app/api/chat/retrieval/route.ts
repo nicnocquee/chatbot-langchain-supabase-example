@@ -79,27 +79,6 @@ Question: {question}
 `;
 const answerPrompt = PromptTemplate.fromTemplate(ANSWER_TEMPLATE);
 
-const ANSWER_PRODUCT_SEARCH_BY_PRICE_TEMPLATE = `
-You are a smartfren customer care agent. User asked the following question:
-
-<question>
-{question}
-</question>
-
-The possible products that the user is looking for is:
-
-<product>
-{context}
-</product>
-
-Give an answer in the same language as the question to the user based on the products information. 
-Be casual. Don't sound too formal.
-
-`;
-const answerProductSearchByPricePrompt = PromptTemplate.fromTemplate(
-  ANSWER_PRODUCT_SEARCH_BY_PRICE_TEMPLATE,
-);
-
 /**
  * This handler initializes and calls a retrieval chain. It composes the chain using
  * LangChain Expression Language. See the docs for more information:
