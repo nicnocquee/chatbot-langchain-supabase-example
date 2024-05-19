@@ -1,5 +1,9 @@
 import { NextRequest, NextResponse } from "next/server";
-import { Message as VercelChatMessage, StreamingTextResponse } from "ai";
+import {
+  Message as VercelChatMessage,
+  StreamingTextResponse,
+  LangChainAdapter,
+} from "ai";
 
 import { createClient } from "@supabase/supabase-js";
 import { AttributeInfo } from "langchain/schema/query_constructor";
@@ -216,7 +220,6 @@ export async function POST(req: NextRequest) {
         chat_history: (input) => input.chat_history,
       },
       answerChain,
-      new BytesOutputParser({ verbose: true }),
     ]);
 
     const stream = await conversationalRetrievalQAChain.stream({
@@ -236,12 +239,9 @@ export async function POST(req: NextRequest) {
       ),
     ).toString("base64");
 
-    return new StreamingTextResponse(stream, {
-      headers: {
-        "x-message-index": (previousMessages.length + 1).toString(),
-        "x-sources": serializedSources,
-      },
-    });
+    const aiStream = LangChainAdapter.toAIStream(stream);
+
+    return new StreamingTextResponse(aiStream);
   } catch (e: any) {
     return NextResponse.json({ error: e.message }, { status: e.status ?? 500 });
   }
