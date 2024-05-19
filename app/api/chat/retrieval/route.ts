@@ -54,9 +54,11 @@ Do not respond with more than one word.
   {chat_history}
 </chat_history>
 
+Make sure you consider the chat history when classifying the question.
+
 Classification:`);
 
-const CONDENSE_QUESTION_TEMPLATE = `Given the following conversation and a follow up question, rephrase the follow up question to be a standalone question, in its original language.
+const CONDENSE_QUESTION_TEMPLATE = `Given the chat history and a follow up question, rephrase the follow up question to be a standalone question that includes clear and informative subject, object, and other information, in its original language.
 
 <chat_history>
   {chat_history}
@@ -251,6 +253,10 @@ export async function POST(req: NextRequest) {
     const conversationalRetrievalQAChain = RunnableSequence.from([
       {
         question: standaloneQuestionChain,
+        chat_history: (input) => input.chat_history,
+      },
+      {
+        question: (input) => input.question,
         topic: classificationChain,
         chat_history: (input) => input.chat_history,
       },
