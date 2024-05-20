@@ -12,10 +12,7 @@ import { PromptTemplate } from "@langchain/core/prompts";
 import { SupabaseVectorStore } from "@langchain/community/vectorstores/supabase";
 import { Document } from "@langchain/core/documents";
 import { RunnableSequence } from "@langchain/core/runnables";
-import {
-  BytesOutputParser,
-  StringOutputParser,
-} from "@langchain/core/output_parsers";
+import { StringOutputParser } from "@langchain/core/output_parsers";
 import { SelfQueryRetriever } from "langchain/retrievers/self_query";
 import { SupabaseTranslator } from "langchain/retrievers/self_query/supabase";
 import { MultiQueryRetriever } from "langchain/retrievers/multi_query";
@@ -23,7 +20,7 @@ import { MultiQueryRetriever } from "langchain/retrievers/multi_query";
 export const runtime = "edge";
 
 const combineDocumentsFn = (docs: Document[]) => {
-  const serializedDocs = docs.map((doc) => doc.pageContent);
+  let serializedDocs = docs.map((doc) => doc.pageContent);
   return serializedDocs.join("\n\n");
 };
 
@@ -41,6 +38,8 @@ const formatVercelMessages = (chatHistory: VercelChatMessage[]) => {
 };
 
 const CONDENSE_QUESTION_TEMPLATE = `Given the chat history and a follow up question, rephrase the follow up question to be a standalone question that includes clear and informative subject, object, and other information, in its original language.
+
+Note that the follow up input could be unrelated to the chat history, or it could be a question that is not related to the chat history. For example, user might ask something unrelated to previous questions. 
 
 <chat_history>
   {chat_history}
@@ -176,9 +175,7 @@ export async function POST(req: NextRequest) {
 
     const answerChain = RunnableSequence.from([
       {
-        products: (input) =>
-          selfQueryRetriever.pipe(combineDocumentsFn).invoke(input.question),
-        troubleshootings: (input) => {
+        context: (input) => {
           const { question } = input;
           const retriever = MultiQueryRetriever.fromLLM({
             llm: model,
@@ -186,7 +183,6 @@ export async function POST(req: NextRequest) {
               verbose: true,
               k: 10,
               searchType: "similarity",
-              filter: { type: "troubleshooting" },
               callbacks: [
                 {
                   handleRetrieverEnd(documents) {
@@ -199,13 +195,6 @@ export async function POST(req: NextRequest) {
           });
 
           return retriever.pipe(combineDocumentsFn).invoke(question);
-        },
-        chat_history: (input) => input.chat_history,
-        question: (input) => input.question,
-      },
-      {
-        context: (input) => {
-          return `Related information based on user's question: ${input.troubleshootings}\n\nRelated products based on user's question: ${input.products}`;
         },
         chat_history: (input) => input.chat_history,
         question: (input) => input.question,

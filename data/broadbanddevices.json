@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Prolink PRT701",
+    "details": "Spesifikasi Baterai 1500 mAH, Kuota Hingga 60 GB, Pilihan Paket Prabayar",
+    "expiry": "Harga mulai dari",
+    "price": "Rp705.000",
+    "link": "https://www.smartfren.com/shop/broadband/Prolink-PRT701",
+    "category": "Modem Wi-Fi",
+    "group": "modem",
+    "type": "Broadband Devices"
+  },
+  {
+    "name": "Huawei E5576",
+    "details": "Spesifikasi Baterai 1500 mAH, Kuota Hingga 60 GB, Pilihan Paket Prabayar",
+    "expiry": "Harga mulai dari",
+    "price": "Rp759.000",
+    "link": "https://www.smartfren.com/shop/broadband/Huawei-E5576",
+    "category": "Modem Wi-Fi",
+    "group": "modem",
+    "type": "Broadband Devices"
+  },
+  {
+    "name": "Advan Router CPE Start",
+    "details": "Spesifikasi Baterai 1500 mAH, Kuota Hingga 1200 GB, Pilihan Paket Prabayar",
+    "expiry": "Harga mulai dari",
+    "price": "Rp899.000",
+    "link": "https://www.smartfren.com/shop/broadband/advan-cpe",
+    "category": "Modem Wi-Fi",
+    "group": "modem",
+    "type": "Broadband Devices"
+  },
+  {
+    "name": "BARDI Smart Bulb 9W-RGBWW",
+    "details": "Bardi Smart Bulb 9W-RGBWW 9W – RGB hingga 16 juta warna, Kartu Perdana Unlimited MAXI 28 Hari atau Kuota Nonstop 43 GB",
+    "expiry": "Harga mulai dari",
+    "price": "Rp176.900",
+    "link": "https://www.smartfren.com/shop/broadband/bardi-smart-bulb/",
+    "category": "Bardi Smart Home",
+    "group": "smart",
+    "type": "Broadband Devices"
+  },
+  {
+    "name": "BARDI IPCam Indoor Static",
+    "details": "Bardi IPCam Indoor Static Orientasi hingga 180°, Kartu Perdana Unlimited MAXI 28 Hari atau Kuota Nonstop 43 GB",
+    "expiry": "Harga mulai dari",
+    "price": "Rp335.900",
+    "link": "https://www.smartfren.com/shop/broadband/bardi-ipcam-indoor-stc/",
+    "category": "Bardi Smart Home",
+    "group": "smart",
+    "type": "Broadband Devices"
+  },
+  {
+    "name": "BARDI IPCam Indoor PTZ",
+    "details": "BARDI IPCam Indoor PTZ Orientasi hingga 360°, Kartu Perdana Unlimited MAXI 28 Hari atau Kuota Nonstop 43 GB",
+    "expiry": "Harga mulai dari",
+    "price": "Rp451.900",
+    "link": "https://www.smartfren.com/shop/broadband/bardi-ipcam-indoor-ptz/",
+    "category": "Bardi Smart Home",
+    "group": "smart",
+    "type": "Broadband Devices"
+  }
+]

@@ -1,0 +1,592 @@
+[
+    {
+        "name": "Unlimited Harian 4 GB",
+        "details": "4 GB Setiap Hari, Unlimited 24 Jam Semua Aplikasi, Anti Potong Pulsa Setelah Batas Harian",
+        "expiry": "Berlaku 30 hari",
+        "price": "Rp160.000",
+        "link": "https://www.smartfren.com/product-details/?post=paket-data-unlimited-harian-4GB/",
+        "category": "Unlimited Harian",
+        "group": "prabayar",
+        "type": "Paket Data"
+    },
+    {
+        "name": "Unlimited Harian 3 GB",
+        "details": "3 GB Setiap Hari, Unlimited 24 Jam Semua Aplikasi, Anti Potong Pulsa Setelah Batas Harian",
+        "expiry": "Berlaku 30 hari",
+        "price": "Rp120.000",
+        "link": "https://www.smartfren.com/product-details/?post=paket-data-unlimited-harian-3GB/",
+        "category": "Unlimited Harian",
+        "group": "prabayar",
+        "type": "Paket Data"
+    },
+    {
+        "name": "Unlimited Harian 2 GB",
+        "details": "2 GB Setiap Hari, Unlimited 24 Jam Semua Aplikasi, Anti Potong Pulsa Setelah Batas Harian",
+        "expiry": "Berlaku 30 hari",
+        "price": "Rp100.000",
+        "link": "https://www.smartfren.com/product-details/?post=paket-data-unlimited-harian-2gb",
+        "category": "Unlimited Harian",
+        "group": "prabayar",
+        "type": "Paket Data"
+    },
+    {
+        "name": "Unlimited Harian 1 GB",
+        "details": "1 GB Setiap Hari, Unlimited 24 Jam Semua Aplikasi, Anti Potong Pulsa Setelah Batas Harian",
+        "expiry": "Berlaku 14 hari",
+        "price": "Rp49.500",
+        "link": "https://www.smartfren.com/product-details/?post=paket-data-unlimited-harian-14-hari/",
+        "category": "Unlimited Harian",
+        "group": "prabayar",
+        "type": "Paket Data"
+    },
+    {
+        "name": "Unlimited Harian 1 GB",
+        "details": "1 GB Setiap Hari, Unlimited 24 Jam Semua Aplikasi, Anti Potong Pulsa Setelah Batas Harian",
+        "expiry": "Berlaku 7 hari",
+        "price": "Rp27.500",
+        "link": "https://www.smartfren.com/product-details/?post=paket-data-unlimited-harian-7-hari/",
+        "category": "Unlimited Harian",
+        "group": "prabayar",
+        "type": "Paket Data"
+    },
+    {
+        "name": "Unlimited Harian 1 GB",
+        "details": "1 GB Setiap Hari, Unlimited 24 Jam Semua Aplikasi, Anti Potong Pulsa Setelah Batas Harian",
+        "expiry": "Berlaku 1 hari",
+        "price": "Rp10.000",
+        "link": "https://www.smartfren.com/product-details/?post=paket-data-unlimited-harian-1-hari/",
+        "category": "Unlimited Harian",
+        "group": "prabayar",
+        "type": "Paket Data"
+    },
+    {
+        "name": "Unlimited Harian 700 MB",
+        "details": "700 MB Setiap Hari, Unlimited 24 Jam Semua Aplikasi, Anti Potong Pulsa Setelah Batas Harian",
+        "expiry": "Berlaku 30 hari",
+        "price": "Rp77.000",
+        "link": "https://www.smartfren.com/product-details/?post=paket-data-unlimited-harian-700mb-30-hari/",
+        "category": "Unlimited Harian",
+        "group": "prabayar",
+        "type": "Paket Data"
+    },
+    {
+        "name": "Unlimited Nonstop 2 GB",
+        "details": "2 GB Kuota 24 Jam, Akses Nonstop Setelah Kuota Utama Habis, Gratis Nelpon Ke Semua smartfren",
+        "expiry": "Berlaku 10 hari",
+        "price": "Rp11.000",
+        "link": "https://www.smartfren.com/product-details/?post=Paket-data-unlimited-nonstop-2-gb",
+        "category": "Unlimited Nonstop",
+        "group": "prabayar",
+        "type": "Paket Data"
+    },
+    {
+        "name": "Unlimited Nonstop 3 GB",
+        "details": "3 GB Kuota Utama, Unlimited Aplikasi Pilihan Walau Kuota Habis, Gratis Nelpon ke Sesama Smartfren",
+        "expiry": "Berlaku 14 hari",
+        "price": "Rp16.500",
+        "link": "https://www.smartfren.com/product-details/?post=Paket-data-unlimited-nonstop-3-gb",
+        "category": "Unlimited Nonstop",
+        "group": "prabayar",
+        "type": "Paket Data"
+    },
+    {
+        "name": "Unlimited Nonstop 6 GB",
+        "details": "6 GB Kuota Utama, Bonus Kuota Lokal Hingga 4 GB, Unlimited Aplikasi Pilihan Walau Kuota Habis",
+        "expiry": "Berlaku 30 hari",
+        "price": "Rp38.500",
+        "link": "https://www.smartfren.com/product-details/?post=Paket-data-unlimited-nonstop-6-gb",
+        "category": "Unlimited Nonstop",
+        "group": "prabayar",
+        "type": "Paket Data"
+    },
+    {
+        "name": "Unlimited Nonstop 12 GB",
+        "details": "12 GB Kuota Utama, Bonus Kuota 6 GB, Unlimited Aplikasi Pilihan Walau Kuota Habis",
+        "expiry": "Berlaku 30 hari",
+        "price": "Rp55.000",
+        "link": "https://www.smartfren.com/product-details/?post=Paket-data-unlimited-nonstop-12-gb",
+        "category": "Unlimited Nonstop",
+        "group": "prabayar",
+        "type": "Paket Data"
+    },
+    {
+        "name": "Unlimited Nonstop 30GB",
+        "details": "30 GB Kuota Utama, Unlimited Aplikasi Pilihan Walau Kuota Habis, Anti Potong Pulsa Setelah Batas Harian",
+        "expiry": "Berlaku 30 hari",
+        "price": "Rp77.000",
+        "link": "https://www.smartfren.com/product-details/?post=Paket-data-unlimited-nonstop-30-gb",
+        "category": "Unlimited Nonstop",
+        "group": "prabayar",
+        "type": "Paket Data"
+    },
+    {
+        "name": "Unlimited Nonstop 45 GB",
+        "details": "45 GB Kuota Utama, Unlimited Aplikasi Pilihan Walau Kuota Habis, Anti Potong Pulsa Setelah Batas Harian",
+        "expiry": "Berlaku 30 hari",
+        "price": "Rp110.000",
+        "link": "https://www.smartfren.com/product-details/?post=Paket-data-unlimited-nonstop-45-gb",
+        "category": "Unlimited Nonstop",
+        "group": "prabayar",
+        "type": "Paket Data"
+    },
+    {
+        "name": "Unlimited Nonstop 60 GB",
+        "details": "60 GB Kuota Utama, Unlimited Aplikasi Pilihan Walau Kuota Habis, Anti Potong Pulsa Setelah Batas Harian",
+        "expiry": "Berlaku 30 hari",
+        "price": "Rp137.500",
+        "link": "https://www.smartfren.com/product-details/?post=Paket-data-unlimited-nonstop-60-gb",
+        "category": "Unlimited Nonstop",
+        "group": "prabayar",
+        "type": "Paket Data"
+    },
+    {
+        "name": "Paket Data Kuota 10 Plus",
+        "details": "2 GB Kuota Utama, 8 GB Kuota Lokal, 2 GB Kuota Malam",
+        "expiry": "Berlaku 3 hari",
+        "price": "Rp 19.000",
+        "link": "https://www.smartfren.com/product-details/?post=paket-data-kuota-10-plus/",
+        "category": "Kuota",
+        "group": "prabayar",
+        "type": "Paket Data"
+    },
+    {
+        "name": "Paket Data Kuota 15 Plus",
+        "details": "3 GB Kuota Utama, 12 GB Kuota Lokal, 3 GB Kuota Malam",
+        "expiry": "Berlaku 5 hari",
+        "price": "Rp 25.000",
+        "link": "https://www.smartfren.com/product-details/?post=paket-data-kuota-15-plus/",
+        "category": "Kuota",
+        "group": "prabayar",
+        "type": "Paket Data"
+    },
+    {
+        "name": "Paket Data Kuota 25 Plus",
+        "details": "5 GB Kuota Utama, 20 GB Kuota Lokal, 5 GB Kuota Malam",
+        "expiry": "Berlaku 7 hari",
+        "price": "Rp 36.000",
+        "link": "https://www.smartfren.com/product-details/?post=paket-data-kuota-25-plus/",
+        "category": "Kuota",
+        "group": "prabayar",
+        "type": "Paket Data"
+    },
+    {
+        "name": "Paket Data Kuota 50 Plus",
+        "details": "12 GB Kuota Utama, 38 GB Kuota Lokal, 10 GB Kuota Malam",
+        "expiry": "Berlaku 14 hari",
+        "price": "Rp 67.000",
+        "link": "https://www.smartfren.com/product-details/?post=paket-data-kuota-50-plus/",
+        "category": "Kuota",
+        "group": "prabayar",
+        "type": "Paket Data"
+    },
+    {
+        "name": "Paket Data Kuota 100 GB",
+        "details": "25 GB Kuota Utama, 75 GB Kuota Lokal",
+        "expiry": "Berlaku 30 hari",
+        "price": "Rp100.000",
+        "link": "",
+        "category": "Kuota",
+        "group": "prabayar",
+        "type": "Paket Data"
+    },
+    {
+        "name": "Paket Data Kuota 200 GB",
+        "details": "60 GB Kuota Utama, 140 GB Kuota Lokal",
+        "expiry": "Berlaku 30 hari",
+        "price": "Rp 200.000",
+        "link": "",
+        "category": "Kuota",
+        "group": "prabayar",
+        "type": "Paket Data"
+    },
+    {
+        "name": "Paket Data Kuota 300 GB",
+        "details": "80 GB Kuota Utama, 220 GB Kuota Lokal",
+        "expiry": "Berlaku 30 hari",
+        "price": "Rp 300.000",
+        "link": "",
+        "category": "Kuota",
+        "group": "prabayar",
+        "type": "Paket Data"
+    },
+    {
+        "name": "Paket Data Kuota 500 GB",
+        "details": "150 GB Kuota Utama, 350 GB Kuota Lokal",
+        "expiry": "Berlaku 30 hari",
+        "price": "Rp 500.000",
+        "link": "",
+        "category": "Kuota",
+        "group": "prabayar",
+        "type": "Paket Data"
+    },
+    {
+        "name": "Paket Data Kuota M",
+        "details": "6 GB Kuota Utama, 5 GB Kuota Aplikasi, Hingga 10 GB Kuota Lokal",
+        "expiry": "Berlaku 30 hari",
+        "price": "Rp42.000",
+        "link": "",
+        "category": "Kuota",
+        "group": "prabayar",
+        "type": "Paket Data"
+    },
+    {
+        "name": "Paket Data Kuota L",
+        "details": "12 GB Kuota Utama, 10 GB Kuota Aplikasi, Hingga 18 GB Kuota Lokal",
+        "expiry": "Berlaku 30 hari",
+        "price": "Rp60.500",
+        "link": "",
+        "category": "Kuota",
+        "group": "prabayar",
+        "type": "Paket Data"
+    },
+    {
+        "name": "Paket Data Kuota 2L",
+        "details": "20 GB Kuota Utama, 10 GB Kuota Aplikasi, Hingga 35 GB Kuota Lokal",
+        "expiry": "Berlaku 30 hari",
+        "price": "Rp90.500",
+        "link": "",
+        "category": "Kuota",
+        "group": "prabayar",
+        "type": "Paket Data"
+    },
+    {
+        "name": "Paket Data Kuota 3L",
+        "details": "32 GB Kuota Utama, 15 GB Kuota Aplikasi, Hingga 53 GB Kuota Lokal",
+        "expiry": "Berlaku 30 hari",
+        "price": "Rp126.500",
+        "link": "",
+        "category": "Kuota",
+        "group": "prabayar",
+        "type": "Paket Data"
+    },
+    {
+        "name": "Paket Data Kuota 4L",
+        "details": "44 GB Kuota Utama, 15 GB Kuota Aplikasi, Hingga 66 GB Kuota Lokal",
+        "expiry": "Berlaku 30 hari",
+        "price": "Rp151.000",
+        "link": "",
+        "category": "Kuota",
+        "group": "prabayar",
+        "type": "Paket Data"
+    },
+    {
+        "name": "Kuota 3 GB",
+        "details": "3 GB Kuota 24 Jam, Unlimited Aplikasi Pilihan Walau Kuota Habis, +Gratis Nelpon Ke Semua Smartfren",
+        "expiry": "Berlaku 14 hari",
+        "price": "Rp16.500",
+        "link": "https://www.smartfren.com/product-details/?post=paket-data-kuota-3-gb/",
+        "category": "Kuota",
+        "group": "prabayar",
+        "type": "Paket Data"
+    },
+    {
+        "name": "Kuota 70 GB",
+        "details": "25 GB Kuota Utama, 25 GB Kuota Ekstra, 10 GB + 10 GB Kuota Aplikasi + Kuota Loyalty",
+        "expiry": "Billing Cycle",
+        "price": "Rp80.000",
+        "link": "https://www.smartfren.com/product-details/?post=elite-kuota-70gb/",
+        "category": "Kuota",
+        "group": "elite",
+        "type": "Paket Data"
+    },
+    {
+        "name": "Kuota 100 GB",
+        "details": "40 GB Kuota Utama, 40 GB Kuota Ekstra, 10 GB + 10 GB Kuota Aplikasi + Kuota Loyalty",
+        "expiry": "Billing Cycle",
+        "price": "Rp100.000",
+        "link": "https://www.smartfren.com/starterpack/pilihinternet/esim/postsuper?entrypoint=buySIMHome_buttonBuy_clicked&src=pilihsim&producttype=postpaid",
+        "category": "Kuota",
+        "group": "elite",
+        "type": "Paket Data"
+    },
+    {
+        "name": "Kuota 140 GB",
+        "details": "60 GB Kuota Utama, 60 GB Kuota Ekstra, 10 GB + 10 GB Kuota Aplikasi + Kuota Loyalty",
+        "expiry": "Billing Cycle",
+        "price": "Rp150.000",
+        "link": "https://www.smartfren.com/product-details/?post=elite-kuota-140gb/",
+        "category": "Kuota",
+        "group": "elite",
+        "type": "Paket Data"
+    },
+    {
+        "name": "Kuota 180 GB",
+        "details": "80 GB Kuota Utama, 80 GB Kuota Ekstra, 10 GB + 10 GB Kuota Aplikasi + Kuota Loyalty",
+        "expiry": "Billing Cycle",
+        "price": "Rp200.000",
+        "link": "https://www.smartfren.com/product-details/?post=elite-kuota-180gb/",
+        "category": "Kuota",
+        "group": "elite",
+        "type": "Paket Data"
+    },
+    {
+        "name": "Kuota 140 GB + Nelpon & SMS",
+        "details": "60 GB Kuota Utama, 60 GB Kuota Ekstra, 10 GB + 10 GB Kuota Aplikasi + Kuota Loyalty",
+        "expiry": "Billing Cycle",
+        "price": "Rp170.000",
+        "link": "https://www.smartfren.com/product-details/?post=elite-kuota-nelpon-140gb/",
+        "category": "Kuota",
+        "group": "elite",
+        "type": "Paket Data"
+    },
+    {
+        "name": "Kuota 180 GB + Nelpon & SMS",
+        "details": "80 GB Kuota Utama, 80 GB Kuota Ekstra, 10 GB + 10 GB Kuota Aplikasi + Kuota Loyalty",
+        "expiry": "Billing Cycle",
+        "price": "Rp230.000",
+        "link": "https://www.smartfren.com/product-details/?post=elite-kuota-nelpon-180gb/",
+        "category": "Kuota",
+        "group": "elite",
+        "type": "Paket Data"
+    },
+    {
+        "name": "Unlimited Harian 2.5 GB",
+        "details": "Batas Harian 2.5 GB/Hari, Gratis 30 menit+ Ke Operator Lain, Gratis 30 SMS SMS ke semua operator",
+        "expiry": "Billing Cycle",
+        "price": "Rp100.000",
+        "link": "https://www.smartfren.com/product-details/?post=smartfren-elite-unlimited-harian-2-5-gb",
+        "category": "Unlimited Harian",
+        "group": "elite",
+        "type": "Paket Data"
+    },
+    {
+        "name": "Unlimited Harian 4 GB",
+        "details": "Batas Harian 4 GB/Hari, Gratis 60 menit+ Ke Operator Lain, Gratis 60 SMS SMS ke semua operator",
+        "expiry": "Billing Cycle",
+        "price": "Rp150.000",
+        "link": "https://www.smartfren.com/product-details/?post=smartfren-elite-unlimited-harian-4-gb",
+        "category": "Unlimited Harian",
+        "group": "elite",
+        "type": "Paket Data"
+    },
+    {
+        "name": "Unlimited Harian 8 GB",
+        "details": "Batas Harian 8 GB/Hari, Gratis 90 menit+ Ke Operator Lain, Gratis 90 SMS SMS ke semua operator",
+        "expiry": "Billing Cycle",
+        "price": "Rp300.000",
+        "link": "https://www.smartfren.com/product-details/?post=smartfren-elite-unlimited-harian-8-gb",
+        "category": "Unlimited Harian",
+        "group": "elite",
+        "type": "Paket Data"
+    },
+    {
+        "name": "Unlimited Harian 3 GB 90 Hari",
+        "details": "Batas Harian 3 GB/Hari, Gratis 30 menit+ Ke Operator Lain, Gratis 30 SMS SMS ke semua operator",
+        "expiry": "",
+        "price": "Rp300.000",
+        "link": "https://www.smartfren.com/product-details/?post=smartfren-elite-unlimited-harian-90-day",
+        "category": "Unlimited Harian",
+        "group": "elite",
+        "type": "Paket Data"
+    },
+    {
+        "name": "Unlimited Harian 3.5 GB 180 Hari",
+        "details": "Batas Harian 3.5 GB 180 Hari, Gratis 30 menit+ Ke Operator Lain, Gratis 30 SMS SMS ke semua operator",
+        "expiry": "",
+        "price": "Rp600.000",
+        "link": "https://www.smartfren.com/product-details/?post=smartfren-elite-unlimited-harian-180-day",
+        "category": "Unlimited Harian",
+        "group": "elite",
+        "type": "Paket Data"
+    },
+    {
+        "name": "Unlimited Nonstop 90 GB 90 Hari -New",
+        "details": "90 GB Kuota 24 Jam, Akses Nonstop Setelah Kuota Utama Habis, Gratis Nelpon Ke Semua smartfren",
+        "expiry": "90 Hari",
+        "price": "Rp195.000",
+        "link": "https://www.smartfren.com/product-details/?post=smartfren-elite-unlimited-nonstop-90-gb/",
+        "category": "Unlimited Nonstop",
+        "group": "elite",
+        "type": "Paket Data"
+    },
+    {
+        "name": "Unlimited Nonstop 180 GB 180 Hari -New",
+        "details": "180 GB Kuota 24 Jam, Akses Nonstop Setelah Kuota Utama Habis, Gratis Nelpon Ke Semua smartfren",
+        "expiry": "180 Hari",
+        "price": "Rp375.000",
+        "link": "https://www.smartfren.com/product-details/?post=smartfren-elite-unlimited-nonstop-180-gb/",
+        "category": "Unlimited Nonstop",
+        "group": "elite",
+        "type": "Paket Data"
+    },
+    {
+        "name": "Unlimited Nonstop 360 GB 360 Hari -New",
+        "details": "360 GB Kuota 24 Jam, Akses Nonstop Setelah Kuota Utama Habis, Gratis Nelpon Ke Semua smartfren",
+        "expiry": "360 Hari",
+        "price": "Rp750.000",
+        "link": "https://www.smartfren.com/product-details/?post=smartfren-elite-unlimited-nonstop-360-gb/",
+        "category": "Unlimited Nonstop",
+        "group": "elite",
+        "type": "Paket Data"
+    },
+    {
+        "name": "Unlimited Nonstop 30 GB",
+        "details": "30 GB Kuota 24 Jam, Akses Nonstop Setelah Kuota Utama Habis, Gratis Nelpon Ke Semua smartfren",
+        "expiry": "Billing Cycle",
+        "price": "Rp70.000",
+        "link": "https://www.smartfren.com/product-details/?post=smartfren-elite-unlimited-nonstop-30-gb/",
+        "category": "Unlimited Nonstop",
+        "group": "elite",
+        "type": "Paket Data"
+    },
+    {
+        "name": "Unlimited Nonstop 45 GB",
+        "details": "45 GB Kuota 24 Jam, Akses Nonstop Setelah Kuota Utama Habis, Gratis Nelpon Ke Semua smartfren",
+        "expiry": "Billing Cycle",
+        "price": "Rp100.000",
+        "link": "https://www.smartfren.com/product-details/?post=smartfren-elite-unlimited-nonstop-45-gb/",
+        "category": "Unlimited Nonstop",
+        "group": "elite",
+        "type": "Paket Data"
+    },
+    {
+        "name": "Unlimited Nonstop 60 GB",
+        "details": "60 GB Kuota 24 Jam, Akses Nonstop Setelah Kuota Utama Habis, Gratis Nelpon Ke Semua smartfren",
+        "expiry": "Billing Cycle",
+        "price": "Rp125.000",
+        "link": "https://www.smartfren.com/product-details/?post=smartfren-elite-unlimited-nonstop-60-gb/",
+        "category": "Unlimited Nonstop",
+        "group": "elite",
+        "type": "Paket Data"
+    },
+    {
+        "name": "Unlimited Nonstop 75 GB",
+        "details": "75 GB Kuota 24 Jam, Akses Nonstop Setelah Kuota Utama Habis, Gratis Nelpon Ke Semua smartfren",
+        "expiry": "Billing Cycle",
+        "price": "Rp150.000",
+        "link": "https://www.smartfren.com/product-details/?post=smartfren-elite-unlimited-nonstop-75-gb/",
+        "category": "Unlimited Nonstop",
+        "group": "elite",
+        "type": "Paket Data"
+    },
+    {
+        "name": "Umroh dan Haji 12 GB",
+        "details": "5 GB Kuota Roaming di Arab Saudi, 5 GB Kuota Roaming di Arab Saudi, 2 GB Kuota di Indonesia",
+        "expiry": "Berlaku 14 hari",
+        "price": "Rp275.000",
+        "link": "https://www.smartfren.com/product-details/?post=paket-data-umrah-haji-12GB/",
+        "category": "Paket Data Roaming Prabayar",
+        "group": "roaming",
+        "type": "Paket Data"
+    },
+    {
+        "name": "Umroh dan Haji 2 GB",
+        "details": "1 GB Kuota Roaming di Arab Saudi, 1 GB Kuota Chat di Arab Saudi",
+        "expiry": "Berlaku 7 hari",
+        "price": "Rp99.000",
+        "link": "https://www.smartfren.com/product-details/?post=paket-data-umrah-haji-2GB/",
+        "category": "Paket Data Roaming Prabayar",
+        "group": "roaming",
+        "type": "Paket Data"
+    },
+    {
+        "name": "Singapura – Malaysia 1 GB",
+        "details": "1 GB Kuota 24 Jam, Jaringan 4G Sepenuhnya Akses Internet 4G di Semua Negara",
+        "expiry": "Berlaku 30 hari",
+        "price": "Rp50.000",
+        "link": "https://www.smartfren.com/product-details/?post=paket-data-roaming-singapura-malaysia/",
+        "category": "Paket Data Roaming Prabayar",
+        "group": "roaming",
+        "type": "Paket Data"
+    },
+    {
+        "name": "Asia Pasifik 1 GB",
+        "details": "1 GB Kuota 24 Jam, Jaringan 4G Sepenuhnya Akses Internet 4G di Semua Negara*",
+        "expiry": "Berlaku 30 hari",
+        "price": "Rp90.000",
+        "link": "https://www.smartfren.com/product-details/?post=paket-data-roaming-asia-pasifik-1-gb/",
+        "category": "Paket Data Roaming Prabayar",
+        "group": "roaming",
+        "type": "Paket Data"
+    },
+    {
+        "name": "Asia Pasifik 3 GB",
+        "details": "3 GB Kuota 24 Jam, Jaringan 4G Sepenuhnya Akses Internet 4G di Semua Negara*",
+        "expiry": "Berlaku 30 hari",
+        "price": "Rp 250.000",
+        "link": "https://www.smartfren.com/product-details/?post=paket-data-roaming-asia-pasifik-3-gb/",
+        "category": "Paket Data Roaming Prabayar",
+        "group": "roaming",
+        "type": "Paket Data"
+    },
+    {
+        "name": "Asia Pasifik 5 GB",
+        "details": "5 GB Kuota 24 Jam, Jaringan 4G Sepenuhnya Akses Internet 4G di Semua Negara*",
+        "expiry": "Berlaku 30 hari",
+        "price": "Rp400.000",
+        "link": "https://www.smartfren.com/product-details/?post=paket-data-roaming-asia-pasifik-5-gb/",
+        "category": "Paket Data Roaming Prabayar",
+        "group": "roaming",
+        "type": "Paket Data"
+    },
+    {
+        "name": "Around The World 5 GB",
+        "details": "5 GB Kuota 24 Jam, Jaringan 4G Sepenuhnya Akses Internet 4G di Semua Negara*",
+        "expiry": "Berlaku 30 hari",
+        "price": "Rp600.000",
+        "link": "https://www.smartfren.com/product-details/?post=paket-data-roaming-around-the-world/",
+        "category": "Paket Data Roaming Prabayar",
+        "group": "roaming",
+        "type": "Paket Data"
+    },
+    {
+        "name": "Singapura – Malaysia 1 GB",
+        "details": "1 GB Kuota 24 Jam, Jaringan 4G Sepenuhnya Akses Internet 4G di Semua Negara",
+        "expiry": "Berlaku 30 hari",
+        "price": "Rp50.000",
+        "link": "https://www.smartfren.com/product-details/?post=paket-data-roaming-pascabayar-singapura-malaysia/",
+        "category": "Paket Data Roaming Pascabayar",
+        "group": "roaming",
+        "type": "Paket Data"
+    },
+    {
+        "name": "Asia Pasifik 1 GB",
+        "details": "1 GB Kuota 24 Jam, Jaringan 4G Sepenuhnya Akses Internet 4G di Semua Negara*",
+        "expiry": "Berlaku 30 hari",
+        "price": "Rp90.000",
+        "link": "https://www.smartfren.com/product-details/?post=paket-data-roaming-pascabayar-asia-pasifik-1-gb/",
+        "category": "Paket Data Roaming Pascabayar",
+        "group": "roaming",
+        "type": "Paket Data"
+    },
+    {
+        "name": "Asia Pasifik 3 GB",
+        "details": "3 GB Kuota 24 Jam, Jaringan 4G Sepenuhnya Akses Internet 4G di Semua Negara*",
+        "expiry": "Berlaku 30 hari",
+        "price": "Rp 250.000",
+        "link": "https://www.smartfren.com/product-details/?post=paket-data-roaming-pascabayar-asia-pasifik-3-gb/",
+        "category": "Paket Data Roaming Pascabayar",
+        "group": "roaming",
+        "type": "Paket Data"
+    },
+    {
+        "name": "Asia Pasifik 5 GB",
+        "details": "5 GB Kuota 24 Jam, Jaringan 4G Sepenuhnya Akses Internet 4G di Semua Negara*",
+        "expiry": "Berlaku 30 hari",
+        "price": "Rp400.000",
+        "link": "https://www.smartfren.com/product-details/?post=paket-data-roaming-pascabayar-asia-pasifik-5-gb/",
+        "category": "Paket Data Roaming Pascabayar",
+        "group": "roaming",
+        "type": "Paket Data"
+    },
+    {
+        "name": "Around The World 5 GB",
+        "details": "5 GB Kuota 24 Jam, Jaringan 4G Sepenuhnya Akses Internet 4G di Semua Negara*",
+        "expiry": "Berlaku 30 hari",
+        "price": "Rp600.000",
+        "link": "https://www.smartfren.com/product-details/?post=paket-data-roaming-pascabayar-around-the-world/",
+        "category": "Paket Data Roaming Pascabayar",
+        "group": "roaming",
+        "type": "Paket Data"
+    },
+    {
+        "name": "Smart Day Pass Arab Saudi",
+        "details": "Unlimited Unlimited 24 Jam, Jaringan 4G Sepenuhnya Akses Internet 4G di Arab Saudi",
+        "expiry": "Berlaku 14 hari",
+        "price": "Rp285.000",
+        "link": "https://www.smartfren.com/product-details/?post=paket-data-smart-day-pass-pascabayar-arab-saudi/",
+        "category": "Paket Data Roaming Pascabayar",
+        "group": "roaming",
+        "type": "Paket Data"
+    }
+]

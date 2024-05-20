@@ -9,66 +9,6 @@ import dotenv from "dotenv";
 
 dotenv.config({ path: path.join(__dirname, ".env.local") });
 
-const knowledgeDocuments = [
-  { path: "addons.json", type: "product", topic: "addons" },
-  {
-    path: "aktifkan-paket-internet.md",
-    type: "troubleshooting",
-    topic: "activating-internet-package",
-  },
-  { path: "broadbands.json", type: "product", topic: "broadbands" },
-  { path: "bundles.json", type: "product", topic: "bundles" },
-  {
-    path: "ganti-nomor.json",
-    type: "troubleshooting",
-    topic: "changing-number",
-  },
-  {
-    path: "internet-lemot.md",
-    type: "troubleshooting",
-    topic: "slow-internet",
-  },
-  { path: "low-signal.md", type: "troubleshooting", topic: "low-signal" },
-  { path: "minta-pulsa.json", type: "troubleshooting", topic: "minta-pulsa" },
-  { path: "packages.json", type: "product", topic: "packages" },
-  {
-    path: "paket-kuota-100GB.json",
-    type: "troubleshooting",
-    topic: "paket-kuota-100GB",
-  },
-  {
-    path: "paket-kuota-200GB.json",
-    type: "troubleshooting",
-    topic: "paket-kuota-200GB",
-  },
-  { path: "paket.json", type: "product", topic: "paket" },
-  { path: "power-up.json", type: "troubleshooting", topic: "power-up" },
-  {
-    path: "pulsa-darurat.json",
-    type: "troubleshooting",
-    topic: "pulsa-darurat",
-  },
-  { path: "reaktivasi.json", type: "troubleshooting", topic: "reaktivasi" },
-  { path: "registrasi.json", type: "troubleshooting", topic: "registration" },
-  { path: "sptourist.json", type: "troubleshooting", topic: "tourists" },
-  {
-    path: "touriststaterpack.json",
-    type: "troubleshooting",
-    topic: "tourists",
-  },
-  { path: "unlimited.json", type: "troubleshooting", topic: "unlimited" },
-  {
-    path: "voucher-data-super-kuota.json",
-    type: "troubleshooting",
-    topic: "voucher-data-super-kuota",
-  },
-  {
-    path: "voucher-data-unlimited.json",
-    type: "troubleshooting",
-    topic: "voucher-data-unlimited",
-  },
-];
-
 export const main = async () => {
   const documents = [];
 
@@ -77,9 +17,9 @@ export const main = async () => {
     chunkOverlap: 0,
   });
 
+  const files = await fs.readdir(path.join(__dirname, "data"));
   // get json from directory
-  for (const knowledge of knowledgeDocuments) {
-    const { path: theFilePath, type, topic } = knowledge;
+  for (const theFilePath of files) {
     if (!theFilePath.endsWith(".json") && !theFilePath.endsWith(".md")) {
       console.log(
         `Skipping ${theFilePath} because it's not a JSON or Markdown file`,
@@ -96,8 +36,7 @@ export const main = async () => {
           ...doc,
           metadata: {
             ...doc.metadata,
-            topic,
-            type,
+            type: "troubleshooting",
           },
         })),
       );
@@ -122,20 +61,31 @@ export const main = async () => {
                 pageContent: `${question}\n${answer}`,
                 metadata: {
                   filename: theFilePath,
-                  topic,
-                  type,
+                  type: "troubleshooting",
                 },
               }),
             );
           } else if (name && details) {
-            const { price, product_url, validity, image_url } = item;
+            const {
+              price,
+              product_url,
+              validity,
+              image_url,
+              type,
+              category,
+              group,
+            } = item;
 
             documents.push(
               new Document({
                 pageContent: [
                   `Product: ${name}`,
-                  `Details: ${details.join(". ")}`,
+                  `Details: ${details}`,
                   price && price.length > 0 ? `Price: ${price}` : null,
+                  category && category.length > 0
+                    ? `Category: ${category}`
+                    : null,
+                  group && group.length > 0 ? `Group: ${group}` : null,
                   validity && validity.length > 0
                     ? `Validity: ${validity}`
                     : null,
@@ -151,7 +101,7 @@ export const main = async () => {
                 metadata: {
                   filename: theFilePath,
                   product: item,
-                  topic,
+                  topic: type,
                   price:
                     parseInt(
                       price
@@ -159,7 +109,7 @@ export const main = async () => {
                         .replace(/\"/g, "")
                         .replace(/\./g, ""),
                     ) || 0,
-                  type,
+                  type: "product,",
                 },
               }),
             );

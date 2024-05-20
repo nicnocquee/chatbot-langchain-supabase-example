@@ -1,0 +1,392 @@
+[
+    {
+        "name": "Haji 12 GB",
+        "details": "5 GB Kuota Roaming di Arab Saudi, 5 GB Kuota Chat di Arab Saudi, 2 GB Kuota di Indonesia",
+        "expiry": "Berlaku 45 hari",
+        "price": "Rp399.000",
+        "link": "https://www.smartfren.com/starterpack/pilihsim/pilih-paket?simtype=USIM&category=international&producttype=international&partner=MYWEB",
+        "category": "Kartu Perdana Umrah & Haji",
+        "group": "sim",
+        "type": "Kartu Perdana"
+    },
+    {
+        "name": "Kartu Perdana GOLF",
+        "details": "Kuota Utama 6 GB, Kuota Aplikasi 5 GB, Voucher Diskon Main Golf Diskon bermain di lapangan yang bermitra",
+        "expiry": "Berlaku 30 hari",
+        "price": "Rp50.000",
+        "link": "https://www.smartfren.com/product-details/?post=sp-golf/",
+        "category": "Kuota",
+        "group": "sim",
+        "type": "Kartu Perdana"
+    },
+    {
+        "name": "Kartu Perdana Kuota M",
+        "details": "Bonus Kuota Utama 6 GB, Bonus Kuota Lokal 5 GB, Hingga 10 GB Bonus Kuota Loyalty",
+        "expiry": "Berlaku 30 hari",
+        "price": "Rp42.000",
+        "link": "https://www.smartfren.com/starterpack/pilihinternet/esim/kuotaweb?entrypoint=&src=pilihsim&producttype=prepaid",
+        "category": "Kuota",
+        "group": "sim",
+        "type": "Kartu Perdana"
+    },
+    {
+        "name": "Kartu Perdana Kuota L",
+        "details": "Bonus Kuota Utama 12 GB, Bonus Kuota Lokal 10 GB, Hingga 18 GB Bonus Kuota Loyalty",
+        "expiry": "Berlaku 30 hari",
+        "price": "Rp60.500",
+        "link": "https://www.smartfren.com/product-details/?post=kartu-perdana-kuota-L/",
+        "category": "Kuota",
+        "group": "sim",
+        "type": "Kartu Perdana"
+    },
+    {
+        "name": "Kuota 3 GB",
+        "details": "3 GB Kuota 24 Jam, Unlimited Aplikasi Pilihan Setelah Batas Harian, 5 GB Bonus Kuota Pelanggan Baru",
+        "expiry": "Berlaku 14 hari",
+        "price": "Rp18.000",
+        "link": "https://www.smartfren.com/product-details/?post=kartu-perdana-kuota-3-gb/",
+        "category": "Kuota",
+        "group": "sim",
+        "type": "Kartu Perdana"
+    },
+    {
+        "name": "Kartu Perdana Kuota 2GB Plus",
+        "details": "Kuota Utama 2 GB, Kuota Malam 3 GB, Gratis Nelpon Ke Sesama Smartfren",
+        "expiry": "Berlaku 30 hari",
+        "price": "Rp11.000",
+        "link": "https://www.smartfren.com/product-details/?post=kartu-perdana-kuota-2-gb-plus/",
+        "category": "Kuota",
+        "group": "sim",
+        "type": "Kartu Perdana"
+    },
+    {
+        "name": "Kartu Perdana Kuota 50GB Tapal Kuda",
+        "details": "Kuota Utama 5 GB, Kuota Lokal 45 GB, Gratis Nelpon Ke Sesama Smartfren",
+        "expiry": "Berlaku 30 hari",
+        "price": "Rp 60.000",
+        "link": "https://www.smartfren.com/product-details/?post=kartu-perdana-50gb-tapal-kuda/",
+        "category": "Kuota",
+        "group": "sim",
+        "type": "Kartu Perdana"
+    },
+    {
+        "name": "Kartu Perdana Kuota 50GB Mapan",
+        "details": "Kuota Utama 5 GB, Kuota Lokal 45 GB, Gratis Nelpon Ke Sesama Smartfren",
+        "expiry": "Berlaku 30 hari",
+        "price": "Rp 60.000",
+        "link": "https://www.smartfren.com/product-details/?post=kartu-perdana-kuota-50gb-mapan/",
+        "category": "Kuota",
+        "group": "sim",
+        "type": "Kartu Perdana"
+    },
+    {
+        "name": "Kartu Perdana Kuota 50GB Mandiri",
+        "details": "Kuota Utama 5 GB, Kuota Lokal 45 GB, Gratis Nelpon Ke Sesama Smartfren",
+        "expiry": "Berlaku 30 hari",
+        "price": "Rp 60.000",
+        "link": "https://www.smartfren.com/product-details/?post=kartu-perdana-kuota-50gb-mandiri/",
+        "category": "Kuota",
+        "group": "sim",
+        "type": "Kartu Perdana"
+    },
+    {
+        "name": "Unlimited Harian 1 GB",
+        "details": "1 GB Setiap Hari, Unlimited 24 Jam Semua Aplikasi, Anti Potong Pulsa Setelah Batas Harian",
+        "expiry": "Berlaku 7 hari",
+        "price": "Rp27.500",
+        "link": "https://www.smartfren.com/product-details/?post=kartu-perdana-unlimited-harian-7-hari/",
+        "category": "Kartu Perdana Unlimited Harian",
+        "group": "sim",
+        "type": "Kartu Perdana"
+    },
+    {
+        "name": "Unlimited Harian 700 MB",
+        "details": "700 MB Setiap Hari, Unlimited 24 Jam Semua Aplikasi, Anti Potong Pulsa Setelah Batas Harian",
+        "expiry": "Berlaku 28 hari",
+        "price": "Rp71.500",
+        "link": "https://www.smartfren.com/product-details/?post=kartu-perdana-unlimited-harian-700mb/",
+        "category": "Kartu Perdana Unlimited Harian",
+        "group": "sim",
+        "type": "Kartu Perdana"
+    },
+    {
+        "name": "Unlimited Harian 2 GB",
+        "details": "2 GB Setiap Hari, Unlimited 24 Jam Semua Aplikasi, Anti Potong Pulsa Setelah Batas Harian",
+        "expiry": "Berlaku 28 hari",
+        "price": "Rp88.000",
+        "link": "https://www.smartfren.com/product-details/?post=kartu-perdana-unlimited-harian-2gb-28-hari/",
+        "category": "Kartu Perdana Unlimited Harian",
+        "group": "sim",
+        "type": "Kartu Perdana"
+    },
+    {
+        "name": "Unlimited Harian 3 GB",
+        "details": "3 GB Setiap Hari, Unlimited 24 Jam Ke Semua Aplikasi, Anti Potong Pulsa Setelah Batas Harian",
+        "expiry": "Berlaku 28 hari",
+        "price": "Rp110.000",
+        "link": "https://www.smartfren.com/product-details/?post=kartu-perdana-unlimited-harian-3GB/",
+        "category": "Kartu Perdana Unlimited Harian",
+        "group": "sim",
+        "type": "Kartu Perdana"
+    },
+    {
+        "name": "Unlimited Harian 2GB Tapal Kuda",
+        "details": "2 GB Setiap Hari, Unlimited 24 Jam Semua Aplikasi, Anti Potong Pulsa Setelah Batas Harian",
+        "expiry": "Berlaku 30 hari",
+        "price": "Rp60.000",
+        "link": "https://www.smartfren.com/product-details/?post=kartu-perdana-unlimited-lokal-tapal-kuda/",
+        "category": "Kartu Perdana Unlimited Harian",
+        "group": "sim",
+        "type": "Kartu Perdana"
+    },
+    {
+        "name": "Unlimited Harian 2GB Mapan",
+        "details": "2 GB Setiap Hari, Unlimited 24 Jam Semua Aplikasi, Anti Potong Pulsa Setelah Batas Harian",
+        "expiry": "Berlaku 30 hari",
+        "price": "Rp60.000",
+        "link": "https://www.smartfren.com/product-details/?post=kartu-perdana-unlimited-lokal-mapan/",
+        "category": "Kartu Perdana Unlimited Harian",
+        "group": "sim",
+        "type": "Kartu Perdana"
+    },
+    {
+        "name": "Unlimited Harian 2GB Mandiri",
+        "details": "2 GB Setiap Hari, Unlimited 24 Jam Semua Aplikasi, Anti Potong Pulsa Setelah Batas Harian",
+        "expiry": "Berlaku 30 hari",
+        "price": "Rp60.000",
+        "link": "https://www.smartfren.com/product-details/?post=kartu-perdana-unlimited-lokal-mandiri/",
+        "category": "Kartu Perdana Unlimited Harian",
+        "group": "sim",
+        "type": "Kartu Perdana"
+    },
+    {
+        "name": "Unlimited Nonstop 6 GB",
+        "details": "6 GB Kuota Utama, Bonus Kuota Lokal Hingga 6 GB, Unlimited Aplikasi Pilihan Setelah Batas Harian",
+        "expiry": "Berlaku 30 hari",
+        "price": "Rp38.500",
+        "link": "https://www.smartfren.com/product-details/?post=kartu-perdana-unlimited-nonstop-6-gb",
+        "category": "Kartu Perdana Unlimited Nonstop",
+        "group": "sim",
+        "type": "Kartu Perdana"
+    },
+    {
+        "name": "Unlimited Nonstop 12 GB",
+        "details": "12 GB Kuota Utama, Bonus Kuota 8 GB, Unlimited Aplikasi Pilihan Setelah Batas Harian",
+        "expiry": "Berlaku 30 hari",
+        "price": "Rp55.000",
+        "link": "https://www.smartfren.com/product-details/?post=kartu-perdana-unlimited-nonstop-12-gb",
+        "category": "Kartu Perdana Unlimited Nonstop",
+        "group": "sim",
+        "type": "Kartu Perdana"
+    },
+    {
+        "name": "Unlimited Nonstop 30 GB",
+        "details": "30 GB Kuota Utama, Unlimited Aplikasi Pilihan Walau Kuota Habis, Anti Potong Pulsa Setelah Batas Harian",
+        "expiry": "Berlaku 30 hari",
+        "price": "Rp77.000",
+        "link": "https://www.smartfren.com/product-details/?post=kartu-perdana-unlimited-nonstop-30-gb",
+        "category": "Kartu Perdana Unlimited Nonstop",
+        "group": "sim",
+        "type": "Kartu Perdana"
+    },
+    {
+        "name": "Unlimited Nonstop 45 GB",
+        "details": "45 GB Kuota Utama, Unlimited Aplikasi Pilihan Walau Kuota Habis, Anti Potong Pulsa Setelah Batas Harian",
+        "expiry": "Berlaku 30 hari",
+        "price": "Rp110.000",
+        "link": "https://www.smartfren.com/product-details/?post=kartu-perdana-unlimited-nonstop-45-gb",
+        "category": "Kartu Perdana Unlimited Nonstop",
+        "group": "sim",
+        "type": "Kartu Perdana"
+    },
+    {
+        "name": "Unlimited Nonstop 60 GB",
+        "details": "60 GB Kuota Utama, Unlimited Aplikasi Pilihan Walau Kuota Habis, Anti Potong Pulsa Setelah Batas Harian",
+        "expiry": "Berlaku 30 hari",
+        "price": "Rp137.500",
+        "link": "https://www.smartfren.com/product-details/?post=kartu-perdana-unlimited-nonstop-60-gb",
+        "category": "Kartu Perdana Unlimited Nonstop",
+        "group": "sim",
+        "type": "Kartu Perdana"
+    },
+    {
+        "name": "eSIM Unlimited Combo 12GB + Genflix",
+        "details": "12 GB Kuota 24 Jam, Akses Nonstop Setelah Kuota Utama Habis, Genflix Premium 30 Hari",
+        "expiry": "Berlaku 30 hari",
+        "price": "Rp60.000",
+        "link": "https://www.smartfren.com/starterpack/pilihsim",
+        "category": "eSIM Unlimited Combo",
+        "group": "esim",
+        "type": "Kartu Perdana"
+    },
+    {
+        "name": "eSIM Unlimited Combo 30GB + Genflix",
+        "details": "30 GB Kuota 24 Jam, Akses Nonstop Setelah Kuota Utama Habis, Genflix Premium 30 Hari",
+        "expiry": "Berlaku 30 hari",
+        "price": "Rp82.000",
+        "link": "https://www.smartfren.com/starterpack/pilihsim",
+        "category": "eSIM Unlimited Combo",
+        "group": "esim",
+        "type": "Kartu Perdana"
+    },
+    {
+        "name": "eSIM Unlimited Combo 45GB + Genflix",
+        "details": "45 GB Kuota 24 Jam, Akses Nonstop Setelah Kuota Utama Habis, Genflix Premium 30 Hari",
+        "expiry": "Berlaku 30 hari",
+        "price": "Rp115.000",
+        "link": "https://www.smartfren.com/starterpack/pilihsim",
+        "category": "eSIM Unlimited Combo",
+        "group": "esim",
+        "type": "Kartu Perdana"
+    },
+    {
+        "name": "eSIM Unlimited Combo 12GB + Sushiroll",
+        "details": "12 GB Kuota 24 Jam, Akses Nonstop Setelah Kuota Utama Habis, Sushiroll Premium 30 Hari",
+        "expiry": "Berlaku 30 hari",
+        "price": "Rp58.000",
+        "link": "https://www.smartfren.com/starterpack/pilihsim",
+        "category": "eSIM Unlimited Combo",
+        "group": "esim",
+        "type": "Kartu Perdana"
+    },
+    {
+        "name": "eSIM Unlimited Combo 30GB + Sushiroll",
+        "details": "30 GB Kuota 24 Jam, Akses Nonstop Setelah Kuota Utama Habis, Sushiroll Premium 30 Hari",
+        "expiry": "Berlaku 30 hari",
+        "price": "Rp80.000",
+        "link": "https://www.smartfren.com/starterpack/pilihsim",
+        "category": "eSIM Unlimited Combo",
+        "group": "esim",
+        "type": "Kartu Perdana"
+    },
+    {
+        "name": "eSIM Unlimited Combo 45GB + Sushiroll",
+        "details": "45 GB Kuota 24 Jam, Akses Nonstop Setelah Kuota Utama Habis, Sushiroll Premium 30 Hari",
+        "expiry": "Berlaku 30 hari",
+        "price": "Rp113.000",
+        "link": "https://www.smartfren.com/starterpack/pilihsim",
+        "category": "eSIM Unlimited Combo",
+        "group": "esim",
+        "type": "Kartu Perdana"
+    },
+    {
+        "name": "eSIM Unlimited Combo 12 GB + Vidio",
+        "details": "12 GB Kuota 24 Jam, Akses Nonstop Setelah Kuota Utama Habis, Vidio Premium 30 Hari",
+        "expiry": "Berlaku 30 hari",
+        "price": "Rp75.000",
+        "link": "https://www.smartfren.com/starterpack/pilihsim",
+        "category": "eSIM Unlimited Combo",
+        "group": "esim",
+        "type": "Kartu Perdana"
+    },
+    {
+        "name": "eSIM Unlimited Combo 30 GB + Vidio",
+        "details": "30 GB Kuota 24 Jam, Akses Nonstop Setelah Kuota Utama Habis, Vidio Premium 30 Hari",
+        "expiry": "Berlaku 30 hari",
+        "price": "Rp97.000",
+        "link": "https://www.smartfren.com/starterpack/pilihsim",
+        "category": "eSIM Unlimited Combo",
+        "group": "esim",
+        "type": "Kartu Perdana"
+    },
+    {
+        "name": "eSIM Unlimited Combo 45 GB + Vidio",
+        "details": "45 GB Kuota 24 Jam, Akses Nonstop Setelah Kuota Utama Habis, Vidio Premium 30 Hari",
+        "expiry": "Berlaku 30 hari",
+        "price": "Rp130.000",
+        "link": "https://www.smartfren.com/starterpack/pilihsim",
+        "category": "eSIM Unlimited Combo",
+        "group": "esim",
+        "type": "Kartu Perdana"
+    },
+    {
+        "name": "eSIM Unlimited Combo 12 GB + Viu",
+        "details": "12 GB Kuota 24 Jam, Akses Nonstop Setelah Kuota Utama Habis, Viu Premium 30 Hari",
+        "expiry": "Berlaku 30 hari",
+        "price": "Rp75.000",
+        "link": "https://www.smartfren.com/starterpack/pilihsim",
+        "category": "eSIM Unlimited Combo",
+        "group": "esim",
+        "type": "Kartu Perdana"
+    },
+    {
+        "name": "eSIM Unlimited Combo 30 GB + Viu",
+        "details": "30 GB Kuota 24 Jam, Akses Nonstop Setelah Kuota Utama Habis, Viu Premium 30 Hari",
+        "expiry": "Berlaku 30 hari",
+        "price": "Rp97.000",
+        "link": "https://www.smartfren.com/starterpack/pilihsim",
+        "category": "eSIM Unlimited Combo",
+        "group": "esim",
+        "type": "Kartu Perdana"
+    },
+    {
+        "name": "eSIM Unlimited Combo 45 GB + Viu",
+        "details": "45 GB Kuota 24 Jam, Akses Nonstop Setelah Kuota Utama Habis, Viu Premium 30 Hari",
+        "expiry": "Berlaku 30 hari",
+        "price": "Rp130.000",
+        "link": "https://www.smartfren.com/starterpack/pilihsim",
+        "category": "eSIM Unlimited Combo",
+        "group": "esim",
+        "type": "Kartu Perdana"
+    },
+    {
+        "name": "eSIM Unlimited Nonstop  45 GB",
+        "details": "45 GB Kuota 24 Jam, Akses Nonstop Setelah Kuota Utama Habis, + Gratis Nelpon Ke Semua smartfren",
+        "expiry": "Berlaku 30 hari",
+        "price": "Rp110.000",
+        "link": "https://www.smartfren.com/starterpack/pilihsim",
+        "category": "eSIM Unlimited Nonstop",
+        "group": "esim",
+        "type": "Kartu Perdana"
+    },
+    {
+        "name": "Kuota 100 GB",
+        "details": "40 GB Kuota Utama, 40 GB Kuota Ekstra, 10 GB+10 GB Kuota Aplikasi + Kuota Loyalty",
+        "expiry": "Billing Cycle",
+        "price": "Rp100.000",
+        "link": "https://www.smartfren.com/starterpack/pilihinternet/esim/postsuper?entrypoint=buySIMHome_buttonBuy_clicked&src=pilihsim&producttype=postpaid",
+        "category": "eSIM Paskabayar Elite",
+        "group": "esim",
+        "type": "Kartu Perdana"
+    },
+    {
+        "name": "SmartDeal Lite 14 GB",
+        "details": "7 GB Kuota 24 Jam, 7 GB Kuota Malam, +Gratis Nelpon Ke Semua smartfren",
+        "expiry": "Berlaku 360 hari",
+        "price": "Rp160.000",
+        "link": "https://www.smartfren.com/product-details/?post=smartdeal-lite-14-gb/",
+        "category": "Smart Deal",
+        "group": "bundling",
+        "type": "Kartu Perdana"
+    },
+    {
+        "name": "SmartDeal Pro 24 GB",
+        "details": "12 GB Kuota 24 Jam, 12 GB Kuota Malam, +Gratis Nelpon Ke Semua smartfren",
+        "expiry": "Berlaku 360 hari",
+        "price": "Rp250.000",
+        "link": "https://www.smartfren.com/product-details/?post=smartdeal-pro-24-gb/",
+        "category": "Smart Deal",
+        "group": "bundling",
+        "type": "Kartu Perdana"
+    },
+    {
+        "name": "SmartDeal Advance 50 GB",
+        "details": "25 GB Kuota 24 Jam, 25 GB Kuota Malam, +Gratis Nelpon Ke Semua smartfren",
+        "expiry": "Berlaku 360 hari",
+        "price": "Rp450.000",
+        "link": "https://www.smartfren.com/product-details/?post=smartdeal-advance-50-gb/",
+        "category": "Smart Deal",
+        "group": "bundling",
+        "type": "Kartu Perdana"
+    },
+    {
+        "name": "SmartDeal Advance Plus 70 GB",
+        "details": "35 GB Kuota 24 Jam, 35 GB Kuota Malam, +Gratis Nelpon Ke Semua smartfren",
+        "expiry": "Berlaku 360 hari",
+        "price": "Rp650.000",
+        "link": "https://www.smartfren.com/product-details/?post=smartdeal-advance-plus-70-gb/",
+        "category": "Smart Deal",
+        "group": "bundling",
+        "type": "Kartu Perdana"
+    }
+]
