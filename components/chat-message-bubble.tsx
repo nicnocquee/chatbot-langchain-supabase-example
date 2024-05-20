@@ -1,4 +1,6 @@
 import type { Message } from "ai/react";
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 
 export function ChatMessageBubble(props: {
   message: Message;
@@ -16,7 +18,9 @@ export function ChatMessageBubble(props: {
     >
       <div>{prefix}</div>
       <div className="w-full flex flex-col flex-1">
-        <span>{props.message.content}</span>
+        <ReactMarkdown remarkPlugins={[remarkGfm]} className="prose">
+          {props.message.content}
+        </ReactMarkdown>
       </div>
     </div>
   );
