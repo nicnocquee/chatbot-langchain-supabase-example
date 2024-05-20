@@ -1,0 +1,42 @@
+[
+  {
+    "question": "Mengapa saya tidak bisa menerima telepon atau SMS dan juga melakukan telepon dan SMS keluar?",
+    "answer": "Kamu dapat melihat daftar perangkat yang dapat menggunakan eSIM Smartfren di link berikut :https://www.smartfren.com/explore/product/esim-exclusive/"
+  },
+  {
+    "question": "Saya tidak bisa menemukan Personal Hotspot, dimana saya bisa menemukannya?",
+    "answer": "Menu untuk mengaktifkan fitur Hotspot Pribadi tidak muncul di pengaturan perangkat Iphone 13 kamu secara otomatis.Pastikan kamu telah mengaktifkan fitur VoLTE sebelumnya. Berikut langkah-langkah untuk mengaktifkan Hotspot Pribadi di perangkat Iphone 13 kamu.1. Buka menu Pengaturan –> ketuk Seluler2. Pilih Jaringan Data Seluler3. Masukkan APN pada bagian Hotspot Pribadi dengan ‘smartfren4g’4. Kembali ke menu Seluler (langkah penting untuk pengguna eSIM)5. Pilih Jaringan Data Seluler6. Masukkan APN pada bagian APN Seluler dengan ‘smarfren4g’7. Kembali ke menu Seluler8. Menu Hotspot Pribadi akan muncul di menu Seluler9. Hotspot Pribadi kamu siap digunakan"
+  },
+  {
+    "question": "Apa itu Smartfren eSIM?",
+    "answer": "eSIM adalah standar baru yang dikembangkan oleh GSMA dan digunakan di seluruh dunia. eSIM memungkinkan pengguna untuk mengakses jaringan Smartfren ke perangkat tanpa menggunakan kartu SIM fisik. eSIM menyimpan nomor telepon, paket berlangganan, konfigurasi jaringan yang membuat perangkat anda dapat terhubung ke jaringan Smartfren."
+  },
+  {
+    "question": "Apa kelebihan eSIM?",
+    "answer": "Mengoptimalkan fitur iPhone dimana pelanggan bisa menggunakan dual-sim pada iPhone (kartu SIM fisik & Esim), sehingga pelanggan lebih flexible untuk mengatur preferensi layanan data, telepon dan SMS. Dengan eSIM pelanggan bisa menikmati layanan menarik lainnya dari Smartfren."
+  },
+  {
+    "question": "Perangkat apa saja yang mendukung penggunaan eSIM di Indonesia?",
+    "answer": "Apple iPad 7, Apple iPad Air 3, Apple iPad mini 5, Apple iPad Pro (11″), Apple iPad Pro 2 (11″), Apple iPhone 11, Apple iPhone 11 Pro, Apple iPhone 11 Pro Max, Apple iPhone 12, Apple iPhone 12 mini, Apple iPhone 12 Pro, Apple iPhone 12 Pro Max, Apple iPhone SE 2020, Apple iPhone XR, Apple iPhone XS, Apple iPhone XS Max, Google Pixel 3, Google Pixel 3 XL, Google Pixel 3a, Google Pixel 3a XL, Google Pixel 4, Google Pixel 4 XL, Google Pixel 4a, Google Pixel 4a 5G, Google Pixel 5, Huawei P40, Huawei P40 Pro, Huawei Mate 40, Microsoft Surface Duo, Microsoft Surface Pro X, Samsung Galaxy Note20, Samsung Galaxy Note20 Ultra, Samsung Galaxy Note20 Ultra 5G, Samsung Galaxy S20, Samsung Galaxy S20 Ultra, Samsung Galaxy S20+, Samsung Galaxy S21 5G, Samsung Galaxy S21 Ultra 5G, Samsung Galaxy S21+ 5G, Samsung Galaxy Z Flip, Samsung Galaxy Z Fold, Samsung Galaxy Z Fold 2, Samsung Galaxy Watch4 Classic LTE, Samsung Galaxy Z FLIP3, Samsung Galaxy Z FOLD3.Untuk informasi lebih lengkap silahkan cek dihalaman ini"
+  },
+  {
+    "question": "Apakah Smartfren mengubah pengaturan pada perangkat yang menggunakan eSIM?",
+    "answer": "Tidak, Smartfren tidak mengubah pengaturan apapun pada perangkat yang menggunakan eSIM. Fitur eSIM sudah melekat pada perangkat pelanggan dan Smartfren sebagai provider yang menyediakan layanan eSIM pertama kali di Indonesia."
+  },
+  {
+    "question": "Bagaimana cara mengaktifkan eSIM ke perangkat telepon saya?",
+    "answer": "Dapatkan eSIM QR code melalui galeri smartfren dan outlet tertentu yang bekerjasama. Pastikan perangkat Anda terhubung ke internet sebelum melakukan pemindaian pada kode QR. Scan kode QR tersebut dari perangkat Anda, lanjutkan proses instalasi hingga selesai, selanjutnya Smartfren eSIM secara otomatis akan terpasang pada perangkat Anda."
+  },
+  {
+    "question": "Apa saja pembatasan/limitasi dari eSIM?",
+    "answer": "eSIM hanya dapat diunduh ke satu perangkat. Anda tidak diijinkan untuk melakukan scan pada perangkat lain setelah eSIM profil aktif di perangkat sebelumnya. Untuk itu pastikan anda melakukan pemindaian kode QR pertama kali pada perangkat yang akan anda gunakan.Pemindaian ulang dapat dilakukan sampai dengan sepuluh kali pada perangkat yang sama. Simpanlah dengan aman kode anda."
+  },
+  {
+    "question": "Dapatkah saya menggunakan nomor saya yang sekarang menjadi eSIM?",
+    "answer": "upgrade nomor ke eSIM sekarang menjadi Rp. 0 (dengan minimum transaksi)"
+  },
+  {
+    "question": "Apa yang saya harus dilakukan jika secara tidak sengaja menghapus profile eSIM dari perangkat saya?",
+    "answer": "Anda dapat dengan mudah menggunduh profil SIM kembali ke perangkat anda dengan memindai ulang kode QR yang anda dapat sebelumnya. Maksimum pengunduhan ulang adalah sepuluh kali dan hanya dapat dilakukan dari perangkat yang sama."
+  }
+]

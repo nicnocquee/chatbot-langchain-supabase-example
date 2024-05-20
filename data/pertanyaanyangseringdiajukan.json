@@ -1,0 +1,22 @@
+[
+  {
+    "question": "Bagaimana Cara Setting APN Smartfren (iOS)?",
+    "answer": "1. Masuk ke menu “Pengaturan”2. Pilih menu “Seluler”3. Pilih menu “Jaringan Data Seluler”4. Pilih “smartfren4g”"
+  },
+  {
+    "question": "Bagaimana Cara Setting APN Smartfren (Android)?",
+    "answer": "1. Masuk ke menu “Pengaturan/Setelan“2. Pilih menu “Koneksi / Lainnya / Kartu Dual SIM“3. Pilih menu“Jaringan seluler / SIM1”4. Pilih menu“Nama Poin Akses / Nama Titik Akses / Nama Jalur Akses”5. Pilih menu“Smartfren4G”. Jika menu“Smartfren4G”tidak ada, pilih menu“Tambah (+)”lalu isi detail berikut:Nama : Smartfren4GAPN : Smartfren 4G6. Pilih menu“Simpan”"
+  },
+  {
+    "question": "Bagaimana Cara Cek Pulsa Smartfren?",
+    "answer": "Ada beberapa cara yang bisa Kamu lakukan untuk mengetahui sisa pulsa Kamu:1. Tekan tombol *999# lalu tekan OK/Panggil2. Ketik SMS dengan format “CEK” lalu kirim ke 9993. Hubungi 999. Dengarkan petunjuk untuk cek pulsamu."
+  },
+  {
+    "question": "Bagaimana Cara Cek Kuota smartfren?",
+    "answer": "Ada beberapa cara supaya Kamu bisa tau informasi kuotamu:Melalui aplikasi MySmartfren : Yuk cari tau soal aplikasi MySmartfrendisinidan download aplikasinya untuk cek pulsa, kuota, poin, dan dapatkan penawaran eksklusif lainnya.Melalui *888# : Hubungi *888#"
+  },
+  {
+    "question": "Bagaimana Cara Cek Nomor smartfren?",
+    "answer": "Kamu bisa cek nomor dengan menghubungi *999# atau SMS ke 995 dengan format CEK jika nomor Kamu ada di handphone.Jika nomor smartfren Kamu ada di MiFi, Kamu bisa cek dengan membuka 192.168.11 di browser Kamu. Masukkan username: admin dan kata sandi: admin. Pastikan kamu menghubungkan perangkatmu dengan jaringan modem smartfren-mu ya."
+  }
+]

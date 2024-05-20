@@ -1,0 +1,18 @@
+[
+  {
+    "question": "1. Apa itu layanan smartfren SMS Banking?",
+    "answer": "SMS Banking merupakan layanan informasi perbankan yang dapat diakses langsung melalui media SMS dengan mengaktifkan nomor smartfren pada layanan SMS Banking."
+  },
+  {
+    "question": "2. Bagaimana cara aktivasi untuk pelanggan Smartfren?",
+    "answer": "Silahkan daftarkan nomor Smartfren ke ATM/kantor cabang Bank yang telah bekerjasama dengan Smartfren"
+  },
+  {
+    "question": "3. Berapa tarif yang dikenakan untuk pelanggan Smartfren?",
+    "answer": "Tarif yang dikenakan beragam tergantung pada Bank dan jenis transaksi (finansial/non finansial), dengan kisaran 100-500 rupiah/SMS"
+  },
+  {
+    "question": "4. Untuk layanan Smartfren M-Banking apakah berlaku untuk semua prefix?",
+    "answer": "Mayoritas mitra Bank sudah bisa digunakan untuk semua nomor. Namun, untuk beberapa Bank hanya bisa untuk prefix dengan nomor 0887,0888,0889"
+  }
+]

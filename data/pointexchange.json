@@ -1,0 +1,38 @@
+[
+  {
+    "question": "Apa yang dimaksud dengan Point Exchange?",
+    "answer": "Program Point Exchange adalah salah satu program untuk user bisa menukarkan SmartPoin dengan poin loyalty brand lain ataupun sebaliknya."
+  },
+  {
+    "question": "Bagaimana cara melakukan Point Exchange?",
+    "answer": "Buka aplikasi MySmartfren, kemudian lakukan link/register Cashbac terlebih dahulu. Setelah sudah terhubung dengan Cashbac, klik “Tukar Poin” dan masukkan nominal SmartPoin/Cashbac yang ingin Anda tukarkan. Selanjutnya klik “Tukar Poin” dan lakukan konfirmasi dengan klik “Teruskan”. Point akan bertambah langsung."
+  },
+  {
+    "question": "Siapa saja yang bisa mengikuti Program Point Exchange?",
+    "answer": "Semua pelanggan yang memiliki lebih dari 100 SmartPoin/Cashbac dan mengakses aplikasi MySmartfren versi 6.13.0 ke atas dapat mengikuti Program Point Exchange"
+  },
+  {
+    "question": "Berapa poin yang akan didapatkan user ketika melakukan pertukaran dari SmartPoin ke Cashbac ataupun sebaliknya?",
+    "answer": "Poin yang akan di dapatkan oleh pelanggan adalah 98% dari jumlah nominal yang akan ditukarkan. Misal: Pelanggan melakukan pertukaran dengan nominal 100 SmartPoin ke Cashbac Points, maka pelanggan akan mendapatkan 98 Cashbac Points, dan begitu juga sebaliknya."
+  },
+  {
+    "question": "Apakah SmartPoin dan Cashbac memiliki masa kadaluarsa?",
+    "answer": "Masa berlaku untuk SmartPoin yang diperoleh dari hasil pertukaran poin selama 180 hari, sedangkan untuk Cashbac selama 1 tahun."
+  },
+  {
+    "question": "Apakah ada jumlah Minimal dan Maksimal poin untuk melakukan Point Exchange?",
+    "answer": "Minimal untuk melakukan pertukaran poin adalah 100 poin. Maksimal 10.000 SmartPoin per hari ke Cashbac Points. Sebaliknya, tidak ada batasan jumlah Cashbac Points yang ditukar ke SmartPoin"
+  },
+  {
+    "question": "Bagaimana apabila hasil penukaran poin pelanggan terdapat angka di belakang koma?",
+    "answer": "Apabila hasil poin konversi terdapat angka dibelakang koma dimana angka tersebut <= 0,5 maka akan dilakukan pembulatan ke bawah. Sebaliknya, apabila > 0,5 maka akan dilakukan pembulatan ke atas. Contoh: Penukaran dari SmartPoin sebesar 103 maka akan menjadi 101 Cashbac Points (hasil dari pembulatan ke atas 100,94)."
+  },
+  {
+    "question": "Bagaimana apabila pelanggan tidak menerima poin setelah melakukan Point Exchange?",
+    "answer": "Silahkan lakukan cek secara berkala. SmartPoin secara otomatis akan bertambah. Jika SmartPoin tidak bertambah selama 1×24 jam dapat menghubungi customer care"
+  },
+  {
+    "question": "Bagaimana apabila pada saat proses Point Exchange terjadi kegagalan?",
+    "answer": "Ketika terjadi kegagalan proses Point Exchange, pelanggan akan diarahkan ke halaman notifikasi “Exchange Unsuccessful”, kemudian pelanggan akan diarahkan kembali ke halaman input Point Exchange."
+  }
+]

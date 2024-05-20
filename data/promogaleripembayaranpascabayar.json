@@ -1,0 +1,14 @@
+[
+  {
+    "question": "Apakah bisa melakukan pengisian pulsa di nomor Pascabayar, seperti prabayar?",
+    "answer": "Nomor paskabayar bisa dilakukan isi ulang tetapi pulsanya akan menjadi tambahan limit sementara pada bulan tersebut dan sisanya akan digunakan sebagai pengurang tagihan dibulan berikutnya."
+  },
+  {
+    "question": "Apakah saya bisa melakukan pembayaran tagihan yang berjalan (belum tercetak) melalui Contact Center?",
+    "answer": "Contact center dapat membantu pembayaran tagihan berjalan dan akan menjadi tambahan limit sementara pada bulan tersebut dan sisanya dapat digunakan sebagai pengurang tagihan saat cetak billing"
+  },
+  {
+    "question": "Apakah bisa melakukan pembayaran tagihan nomor paskabayar pada masa tenggang atau pada masa blokir 2 arah?",
+    "answer": "Bisa, tim Contact center akan membantu untuk memproses pembayaran tagihan untuk nomor pelanggan dan secara otomatis nomor pelanggan akan kembali aktif"
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "question": "Apakah saya bisa mengetahui sisa kuota internet dan juga masa berlakunya jika nomor dari produk EVO ini ada di dalam perangkat modem WiFi?",
+    "answer": "Untuk mengetahui sisa kuota dan masa berlaku dari nomor produk EVO, dapat dicek melalui aplikasi mySF yang diakses melalui smartphone Anda. Caranya, hubungkan terlebih dahulu smartphone ke WiFi dari perangkat modem yang ada nomor EVO tersebut, kemudian buka aplikasi mysf, lalu pilih “LOGIN TO MIFI/HOTSPOT ACCOUNT”. Maka otomatis layar utama aplikasi mySF akan tampil dengan info nomor produk EVO Anda."
+  },
+  {
+    "question": "Berapa kuota yang akan didapat jika saya melakukan isi ulang dengan denom Rp 50,000 di produk EVO ini?",
+    "answer": "Berikut adalah konversi kuota yang akan didapat jika melakukan isi ulang di produk EVO :Nominal Isi UlangKuota UtamaKuota Extra*Masa BerlakuRp 50,00012,5 GB1 GB30 hariRp 60,00015 GB1 GB30 hariRp 100,00025 GB5 GB30 hariRp 150,00037,5 GB5 GB30 hariRp 200,00050 GB10 GB30 hariRp 300,00090 GB90 GB90 hariRp 500,000150 GB150 GB180 hariRp 1 juta300 GB300 GB360 hariNote : *Kuota Extra hanya diberikan untuk special program / special promo atau untuk produk khusus kartu perdana EVO baru."
+  },
+  {
+    "question": "Bagaimana untuk mendapatkan Kuota Extra?",
+    "answer": "Kuota Extra hanya diberikan untuk special program atau special promo atau untuk produk khusus kartu perdana EVO. Kuota Extra berlaku untuk isi ulang mulai dari denominasi Rp 50ribu."
+  },
+  {
+    "question": "Bagaimana jika kuota internet saya sudah habis sebelum masa berakhir kuota?",
+    "answer": "Jika kuota internet habis sebelum masa berakhirnya maka tidak akan bisa mengakses internet. Untuk dapat kembali menikmati layanan internet, Anda dapat melakukan isi ulang pulsa kembali."
+  },
+  {
+    "question": "Apakah saya dapat melakukan isi ulang beberapa kali dalam periode yang sama?",
+    "answer": "Ya bisa dan untuk kuota yang ada akan mempunyai masa aktif kuota masing-masing."
+  },
+  {
+    "question": "Dimana saya bisa melakukan isi ulang untuk produk EVO ini?",
+    "answer": "Isi ulang dapat dilakukan dengan Voucher Data/Pulsa di outlet-outlet terdekat, ATM, m-Banking, Minimarket, aplikasi e-money dan juga melalui aplikasi mySF."
+  },
+  {
+    "question": "Apa yang dimaksud dengan produk EVO ini?",
+    "answer": "Produk EVO produk data yang menawarkan pengalaman dengan mekanisme yang mudah dan praktis untuk layanan data. Pelanggan hanya cukup melakukan isi ulang dan pulsa akan otomatis dikonversi menjadi kuota internet."
+  },
+  {
+    "question": "Bagaimana prioritas penggunaan Kuota Internet paket EVO?",
+    "answer": "Kuota Internet malam untuk pelanggan di jam 01:00 –04:59Kuota Chatting (untuk akses aplikasi Line, Whatsapp & BBM)Kuota 24 Jam"
+  }
+]

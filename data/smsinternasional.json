@@ -1,0 +1,14 @@
+[
+  {
+    "question": "1. Apakah yang dimaksud dengan layanan Internasional SMS Smartfren?",
+    "answer": "Pelanggan dapat mengirimkan SMS ke lebih dari 200 negara tujuan"
+  },
+  {
+    "question": "2. Bagaimana cara mengirim SMS ke luar negeri menggunakan Smartfren?",
+    "answer": "Pelanggan harus menggunakan kode akses 01033 dengan cara kirim SMS ke [01033] [kode negara] [nomor tujuan]. Contoh kirim SMS ke Singapura: 0103365123456789."
+  },
+  {
+    "question": "3. Berapa tarif per SMS ke Luar Negeri menggunakan Smartfren?",
+    "answer": "Tarif SMS bervariasi ke setiap negara tujuan dari IDR 1000 per SMS sampai IDR 1900 per SMS. Tarif dapat di cek melaluihttps://www.smartfren.com/id/shop/package/international"
+  }
+]

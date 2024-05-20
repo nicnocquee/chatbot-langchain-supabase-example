@@ -1,0 +1,42 @@
+[
+  {
+    "question": "Apakah Saya bisa klaim Bonus berkali-kali dengan Hape yang sama?",
+    "answer": "Tidak. Bonus hanya dapat diklaim 1 kali untuk 1 Nomor dengan menggunakan 1 Hape"
+  },
+  {
+    "question": "Apakah Saya bisa melakukan isi ulang pulsa mulai dari 25ribu dalam keadaan masih memiliki Bonus Kuota 15 GB yang aktif?",
+    "answer": "Bisa. Namun bonus kuota 15 GB selanjutnya akan tetap diberikan pada periode berikutnya. Pastikan nomor Anda aktif pada periode berikutnya agar bonus dapat digunakan."
+  },
+  {
+    "question": "Apakah Saya bisa mendapatkan Bonus 2x jika melakukan isi ulang pulsa 50 ribu?",
+    "answer": "Tidak. Isi ulang pulsa minimal 25 ribu tidak berlaku kelipatan, sehingga isi ulang dengan pulsa 50 ribu akan tetap mendapatkan bonus 1x saja"
+  },
+  {
+    "question": "Jika Saya lupa melakukan isi ulang pulsa sehingga nomor Saya dalam keadaan masa tenggang, apakah masih bisa mendapat Bonus?",
+    "answer": "Pelanggan tetap bisa mendapatkan Bonus dengan melakukan isi ulang pulsa minimal 25 ribu sebelum nomor di terminasi dan nomor akan kembali aktif dan akan mendapatkan Bonus."
+  },
+  {
+    "question": "Apa yang terjadi jika Saya tidak melakukan isi ulang pulsa setiap bulan berturut-turut selama 2 tahun?",
+    "answer": "Bonus Kuota 15 GB akan didapatkan per 30 hari jika melakukan isi ulang pulsa mulai dari 25 ribu. Apabila tidak melakukan isi ulang pulsa pada bulan tertentu maka total bonus yang didapatkan dalam 24 bulan kurang dari 360 GB."
+  },
+  {
+    "question": "Misalkan Bonus yang Saya miliki aktif pada tanggal 1 Jan 2022, sehingga masa aktif paket Saya berakhir pada tanggal 14 Jan 2022. Apakah jika Saya isi ulang pulsa pada tanggal 15 Jan 2022, bisa menikmati bonus kuota?",
+    "answer": "Apabila Anda dapat melakukan isi ulang pulsa pada tanggal 15 Jan 2022, maka bonus yang akan Anda dapatkan untuk periode selanjutnya yaitu 30 hari setelah tanggal 1 Jan 2022. Anda dapat menggunakan pulsa tersebut untuk membeli paket internet lain untuk menghindari pemakaian internet dengan tarif reguler."
+  },
+  {
+    "question": "Apa yang terjadi jika Saya melakukan isi ulang pulsa lebih dari 1x dalam waktu 1 bulan?",
+    "answer": "Anda bisa melakukan isi ulang pulsa lebih dari 1x dalam 1 bulan, namun Bonus yang didapatkan tetap 1 kali selama jangka waktu 30 hari."
+  },
+  {
+    "question": "Apakah pulsa 25 ribu yang Saya isi akan hilang setelah klaim Bonus?",
+    "answer": "Pulsa 25 ribu tidak hilang dan bisa digunakan untuk melakukan pembelian paket internet lainnya."
+  },
+  {
+    "question": "Bagaimana cara mendapatkan Bonus Paket Bundling ini?",
+    "answer": "Untuk mendapatkan Bonus Paket Bundling ini, Pelanggan harus:1. Download aplikasi MySmartfren2. Selanjutnya melakukan isi pulsa minimal Rp25 ribu, paling lambat 3 hari setelah aktivasi kartu.3. Bonus Paket Bundling 24 bulan hanya bisa didapatkan jika pelanggan melakukan langkah 1 & 2 secara berurutan, dilanjutkan dengan isi pulsa setiap bulannya minimal Rp25 ribu."
+  },
+  {
+    "question": "Dimana Saya dapat membeli Paket Bundling ini?",
+    "answer": "Paket Bundling ini bisa didapatkan secara otomatis di Kartu Perdana khusus Oppo yang didapatkan secara gratis setiap pembelian Oppo A96"
+  }
+]

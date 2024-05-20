@@ -1,0 +1,26 @@
+[
+  {
+    "question": "Apakah promo berlaku pembelian dengan cicilan?",
+    "answer": "Tidak, Promo tidak berlaku untuk cicilan"
+  },
+  {
+    "question": "Apakah Pelanggan bisa mendapatkan promo diskon di masing-masing periode campaign?",
+    "answer": "Ya, Pelanggan bisa mendapatkan diskon di masing-masing periode campaign"
+  },
+  {
+    "question": "Apakah promo bisa digabung dengan promo lain?",
+    "answer": "Tidak Promo tidak dapat digabung dengan promo lain yang yang memiliki skema produk yang sama dengan Program Aktivasi"
+  },
+  {
+    "question": "Apakah diskon berupa cashback atau potongan harga langsung pembelian?",
+    "answer": "Diskon berupa potongan harga langsung saat pembelian."
+  },
+  {
+    "question": "Apakah promo berlaku untuk pembalian sesuai kelipatan produk yang terdapat dalam tabel?",
+    "answer": "Ya, masing-masing produk bisa mendapatkan promo diskon sesuai dengan jenis produk dan nilai dalam table syarat & ketentuan program"
+  },
+  {
+    "question": "Apakah Promo aktivasi Kartu Perdana berlaku pembelian secara Online Apps (GrabMart) ?",
+    "answer": "Tidak, promo hanya berlaku untuk pembelian / aktivasi Kartu Perdana di Galeri Smartfren"
+  }
+]

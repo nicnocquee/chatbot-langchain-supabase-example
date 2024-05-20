@@ -1,0 +1,34 @@
+[
+  {
+    "question": "Bagaimana pelanggan dapat melakukan pembelian di call center?",
+    "answer": "Selama pelanggan bersedia dan memberikan Nomor WhatsApp untuk konfirmasi lebih lanjut terkait penjualan melalui contact center"
+  },
+  {
+    "question": "Transaksi apa saja yang bisa di lakukan di Contact Center?",
+    "answer": "Pelanggan dapat melakukan transaksi pembelian Pulsa dan pembelian Paket internet"
+  },
+  {
+    "question": "Bagaimana pembayaran transaksi di call center?",
+    "answer": "Pelanggan dapat menggunakan metode pembayaran OVO, DANA, Shopee pay, gopay dan melalui mobile banking dengan melakukan scan QRIS yang telah diberikan Contact Center ke WhatsApp pelanggan"
+  },
+  {
+    "question": "Bagaimana cara lakukan pembayaran menggunakan e-Payment ?",
+    "answer": "Pelanggan akan dikonfirmasi oleh Agent dengan menggunakan nomor WhatsApp 08881332424 dan 08881330103 (pembayaran Qris menggunakan gopay, dana, shopeepay, link aja dan mobile banking seperti mandiri dll)"
+  },
+  {
+    "question": "Berapa lama proses pembelian?",
+    "answer": "Pembelian pulsa (e-voucher ) atau e-voucher data akan langsung diproses setelah pelanggan berhasil melakukan pembayaran Qris melalui channel-channel berikut OVO, DANA, Shopee pay, gopay dan melalui mobile banking (contoh seperti mandiri, BRI, simobi sinarmas dll)"
+  },
+  {
+    "question": "Apakah ada batas waktu pembayaran?",
+    "answer": "Pembelian akan dibatalkan apabila pelanggan belum melakukan pembayaran setelah melewati batas waktu 15 menit sejak konfirmasi pembelian."
+  },
+  {
+    "question": "Transaksi penjualan apa yang dapat dilakukan oleh contact center",
+    "answer": "Penjualan e-voucher pulsa dan penjualan paket internetan (e-voucher data)"
+  },
+  {
+    "question": "Melalui channel apa saja penjualan melalui contact center?",
+    "answer": "Melalui call center 888, 08811223344, 02150100000 dan live chat smartfren"
+  }
+]

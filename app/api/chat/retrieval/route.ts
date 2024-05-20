@@ -37,7 +37,7 @@ const formatVercelMessages = (chatHistory: VercelChatMessage[]) => {
   return formattedDialogueTurns.join("\n");
 };
 
-const CONDENSE_QUESTION_TEMPLATE = `Given the chat history and a follow up question, rephrase the follow up question to be a standalone question that includes clear and informative subject, object, and other information, in its original language.
+const CONDENSE_QUESTION_TEMPLATE = `Given the chat history and a follow up question, rephrase the follow up question to be a standalone question that includes clear and informative subject, object, and other information, in its original language. Remember to always rephrase in the same language as the question.
 
 Note that the follow up input could be unrelated to the chat history, or it could be a question that is not related to the chat history. For example, user might ask something unrelated to previous questions. 
 
@@ -55,7 +55,7 @@ const condenseQuestionPrompt = PromptTemplate.fromTemplate(
 );
 
 const ANSWER_TEMPLATE = `
-You are a smartfren customer care agent. Answer the question in the same language as the question based only on the following context and chat history:
+You are a smartfren customer care agent. Always answer the question in the same language as the question based only on the following context and chat history:
 
 <context>
   {context}

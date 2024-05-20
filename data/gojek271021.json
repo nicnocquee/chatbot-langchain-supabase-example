@@ -1,0 +1,18 @@
+[
+  {
+    "question": "Cashback yang diterima dalam promo ini dalam bentuk apa?",
+    "answer": "Cashback akan diterima pelanggan berupa saldo Gopay"
+  },
+  {
+    "question": "Apakah pelanggan dapat mendapatkan promo berkali-kali?",
+    "answer": "Tidak. Pelanggan hanya dapat menikmati promo ini 1 kali per 1 ID, dan promo ini juga berlaku hanya untuk pelanggan yang belum pernah melakukan transaksi/pembelian di Gopulsa dengan paylater"
+  },
+  {
+    "question": "Bagaimana cara mengaktifkan GojekPayLater sebagai alat pembayaran?",
+    "answer": "Pelanggan dapat mengikuti langkah-langkah yang tersedia pada aplikasi gojek."
+  },
+  {
+    "question": "Apakah cashback pembelian paket data berlaku untuk semua denomisasi dan pembayaran?",
+    "answer": "Tidak . Pelanggan harus melakukan pembelian minimum 80RB dan pertama kali menggunakan GojekPayLater untuk metode pembayarannya"
+  }
+]

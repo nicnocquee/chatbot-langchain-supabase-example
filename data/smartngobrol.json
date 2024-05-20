@@ -1,0 +1,30 @@
+[
+  {
+    "question": "1. Mengapa saya harus membeli paket SmartNgobrol?",
+    "answer": "Dengan berlangganan paket SmartNgobrol, pelanggan akan mempunyai keuntungan Ngobrol sepuasnya kemana saja dan kapan saja tanpa batas waktu."
+  },
+  {
+    "question": "2. Bagaimana cara mendapatkan paket SmartNgobrol?",
+    "answer": "Paket SmartNgobrol dapat dibeli melalui aplikasi MySmartfren atau tekan *123#."
+  },
+  {
+    "question": "3. Apakah saya dapat membeli lebih dari 1 paket SmartNgobrol dalam periode yang sama?",
+    "answer": "Pelanggan dengan paket SmartNgobrol yang tidak diperpanjang otomatis dapat membeli paket SmartNgobrol lain dengan masa berlaku paket mengikuti masa berlaku paket masing-masing.Namun jika pelanggan dengan paket SmartNgobrol perpanjang otomatis (Renewal), hanya dapat membeli paket SmartNgobrol yang tidak diperpanjang otomatis."
+  },
+  {
+    "question": "4. Apakah telpon ke sesama Smartfren akan mengurangi kuota nelpon ke operator lain?",
+    "answer": "Tidak. Telpon ke nomor sesama Smartfren tidak akan memotong kuota telpon ke operator lain. Telpon ke nomor sesama Smartfren adalah Gratis dan sepuasnya tanpa batas kuota dan tanpa batas waktu."
+  },
+  {
+    "question": "5. Apa yang sebaiknya saya lakukan jika kuota telpon ke operator lain saya habis sebelum masa berakhir paket?",
+    "answer": "Anda dapat membeli paket SmartNgobrol yang tidak diperpanjang otomatis yang lain tanpa harus menonaktifkan paket SmartNgobrol yang Anda miliki terlebih dahulu . Masa berlaku kuota akan mengikuti masa berlaku paket masing-masing.Jika kuota telpon ke operator lain Anda habis di tengah periode paket, Anda tetap dapat melakukan panggilan ke operator lain menggunakan pulsa Anda dan dikenakan tarif dasar/regular."
+  },
+  {
+    "question": "6. Apa yang sebaiknya saya lakukan jika kuota internet paket SmartNgobrol saya habis sebelum masa berakhir paket?",
+    "answer": "Jika kuota internet Anda habis di tengah periode paket, Anda tidak akan dapat mengakses layanan internet. Bagi Anda pengguna internet, dapat membeli paket khusus internet yang lain tanpa harus menonaktifkan paket SmartNgobrol yang Anda miliki terlebih dulu."
+  },
+  {
+    "question": "7. Jika perpanjangan otomatis berhasil, apakah sisa kuota akan diakumulasi ke periode berikutnya?",
+    "answer": "Tidak, sisa kuota nelpon, internet, dan SMS tidak akan terakumulasi dan tidak terbawa ke periode perpanjangan berikutnya."
+  }
+]

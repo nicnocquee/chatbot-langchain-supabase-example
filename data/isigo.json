@@ -1,0 +1,26 @@
+[
+  {
+    "question": "Apakah yang dimaksud dengan IsiGO",
+    "answer": "IsiGO adalah fitur dengan mekanisme automatis konversi Regular Balance sebesar Rp 5,000 menjadi Kuota Data 1 GB dengan masa berlaku 30 hari."
+  },
+  {
+    "question": "Apakah fitur IsiGO ini berlaku untuk semua pelanggan smartfren?",
+    "answer": "Untuk saat ini, fitur IsiGO hanya berlaku untuk pelanggan Gokil Max saja. Dimana pelanggan Gokil Max harus melakukan pendaftaran terlebih dahulu melalui aplikasi MySF atau melalui USSI *888#., dan fitur IsiGO ini akan berlaku selamanya di nomor pelanggan."
+  },
+  {
+    "question": "Bagaimana mekanisme pemberlakuan fitur IsiGO ini?",
+    "answer": "IsiGO untuk di paket Gokil Max akan berlaku jika pelanggan sudah tidak mempunyai kuota Data atau dalam kondisi PAYG ON (pemakaian data akan menggunakan pulsa/regular balance)."
+  },
+  {
+    "question": "Bagaimana jika saya sedang tidak berlangganan paket data dan sisa pulsa saya kurang dari Rp. 5,000?",
+    "answer": "Jika sisa pulsa yang tersedia kurang dari Rp.5,000, maka fitur ISIGo akan terhenti dan berlaku kondisi PAYG OFF (tidak dapat melakukan koneksi data)."
+  },
+  {
+    "question": "Jika saya sudah terdaftar sebagai pelanggan IsiGO, apakah saya tetap bisa menggunakan Regular Balance/Pulsa saya untuk melakukan panggilan telepon atau sms atau pembelian paket Data lainnya?",
+    "answer": "Iya, sisa pulsa yang ada tetap bisa digunakan untuk melakukan panggilan telepon atau sms atau membeli paket Data lainnya selama pulsa mencukupi."
+  },
+  {
+    "question": "Bagaimana cara cek sisa kuota?",
+    "answer": "Pelanggan dapat cek sisa kuota di aplikasi MySmartfren atau tekan ke *888#"
+  }
+]

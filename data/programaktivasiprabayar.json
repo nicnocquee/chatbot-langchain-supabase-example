@@ -1,0 +1,26 @@
+[
+  {
+    "question": "Apakah Pelanggan bisa mendapatkan promo melalui pembelian online?",
+    "answer": "Bisa, Pelanggan dapat mendapatkan promo dengan melakukan pembelian melalui WhatsApp Galeri"
+  },
+  {
+    "question": "Apakah diskon berupa cashback atau potongan harga langsung pembelian?",
+    "answer": "Diskon berupa potongan harga langsung saat pembalian."
+  },
+  {
+    "question": "Apakah voucher fisik berlaku untuk pembelian kelipatan dengan akumulasi 100 ribu?",
+    "answer": "Tidak, voucher berlaku untuk pembelian dengan nilai 100 ribu sesuai dengan ketentuan yang ada."
+  },
+  {
+    "question": "Apakah Pelanggan bisa memilih Kartu Perdana diluar produk dalam promo?",
+    "answer": "Tidak, promo berlaku hanya produk-produk tertentu."
+  },
+  {
+    "question": "Apakah voucher fisik bisa Pelanggan gunakan di hari yang berbeda dengan hari pembelian?",
+    "answer": "Voucher berlaku pada hari yang sama saat melakukan aktivasi Kartu Perdana di Galeri."
+  },
+  {
+    "question": "Apakah voucher fisik bisa digunakan untuk nomor lain selain nomor kartu perdana yang baru diaktivasi?",
+    "answer": "Voucher promo berlaku untuk nomer kartu perdana yang dibeli dari promo kartu perdana."
+  }
+]

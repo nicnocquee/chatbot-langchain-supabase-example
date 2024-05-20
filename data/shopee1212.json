@@ -1,0 +1,42 @@
+[
+  {
+    "question": "Apakah promo ini berlaku untuk isi ulang pulsa?",
+    "answer": "Tidak, promo ini hanya khusus untuk isi ulang paket data min Rp100 ribu."
+  },
+  {
+    "question": "Apakah promo dapat dibeli diluar Shopee?",
+    "answer": "Tidak. Promo ini eksklusif hanya di Shopee."
+  },
+  {
+    "question": "Apakah promo berupa potongan harga langsung?",
+    "answer": "Untuk periode 15 November hingga 11 Desember 2021 Promo ini berupa pemberian Voucher Cashback dan untuk periode 12 Desember promo berupa potongan harga langsung"
+  },
+  {
+    "question": "Jika Pelanggan membeli paket data Rp100 ribu pada transaksi ke 100 berapa Voucher Cashback yang Pelanggan peroleh dan berapa nilai Voucher Cashbacknya?",
+    "answer": "Voucher Cashback yang diperoleh sebanyak dua Voucher Cashback dengan nilai Voucher Cashback masing-masing sebesar Rp10 ribu rupiah."
+  },
+  {
+    "question": "Jika Pelanggan membeli paket data Rp100 ribu pada transaksi ke 101 berapa Voucher Cashback yang Pelanggan peroleh dan berapa nilai Voucher Cashbacknya?",
+    "answer": "Voucher Cashback yang diperoleh hanya satu Voucher Cashback dengan nilai Voucher Cashback sebesar Rp10 ribu rupiah."
+  },
+  {
+    "question": "Jika Pelanggan membeli paket data Rp200 ribu pada transaksi ke 100 berapa Voucher Cashback yang Pelanggan peroleh dan berapa nilai Voucher Cashbacknya?",
+    "answer": "Voucher Cashback yang diperoleh sebanyak dua Voucher Cashback dengan nilai Voucher Cashback masing-masing sebesar Rp20 ribu rupiah."
+  },
+  {
+    "question": "Jika Pelanggan membeli paket data Rp200 ribu pada transaksi ke 101 berapa Voucher Cashback yang Pelanggan peroleh dan berapa nilai Voucher Cashbacknya?",
+    "answer": "Voucher Cashback yang diperoleh sebanyak satu Voucher Cashback dengan nilai Voucher Cashback sebesar Rp20 ribu rupiah"
+  },
+  {
+    "question": "Jika Pelanggan membeli paket data minimal Rp100 ribu pada tanggal 11 November apakah pelanggan menerima Cashback ?",
+    "answer": "Tidak, pelanggan akan menerima diskon langsung sebesar Rp. 11% maksimal Rp.25 ribu"
+  },
+  {
+    "question": "Berapa lama Cashback akan diterima Pelanggan setelah berhasil melakukan pembayaran?",
+    "answer": "Cashback akan diterima Pelanggan maksimal 7x24jam."
+  },
+  {
+    "question": "Apakah Voucher Cashback ini dapat digunakan langsung?",
+    "answer": "Tidak. Cashback hanya untuk pembelian paket data selanjutnya"
+  }
+]

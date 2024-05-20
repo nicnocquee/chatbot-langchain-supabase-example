@@ -1,0 +1,22 @@
+[
+  {
+    "question": "Apakah promo ini berlaku untuk pembelian pulsa?",
+    "answer": "Tidak, promo ini hanya khusus untuk pembelian paket data."
+  },
+  {
+    "question": "Bagaimana cara mendapatkan promo ini?",
+    "answer": "Pelanggan dapat menggunakan kode promo yang disediakan oleh Grab untuk mendapatkan diskon."
+  },
+  {
+    "question": "Apakah promo dapat dibeli diluar Grab?",
+    "answer": "Tidak. Promo ini eksklusif hanya di Grab."
+  },
+  {
+    "question": "Apakah promo berupa potongan harga langsung?",
+    "answer": "Ya. Promo ini berupa potongan harga langsung untuk pembelian paket data dengan diskon 20% hingga 20 ribu."
+  },
+  {
+    "question": "Apakah Diskon pembelian paket data dibatasi?",
+    "answer": "Ya. Kode promo hanya bisa digunakan 1x transaksi untuk 1 user dalam 1 hari."
+  }
+]

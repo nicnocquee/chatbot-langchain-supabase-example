@@ -1,0 +1,14 @@
+[
+  {
+    "question": "Apakah ada paket khusus untuk Pelanggan pascabayar?",
+    "answer": "Tidak, Pelanggan dapat membeli paket data pascabayar apapun sesuai dengan nominal dalam ketentuan promo."
+  },
+  {
+    "question": "Apakah aktivasi paket data berlaku pembelian kelipatan?",
+    "answer": "Bonus kuota berlaku untuk aktivasi paket data min Rp100 ribu yang dilakukan dalam 1 kali isi ulang pulsa, bukan nilai akumulatif 1 hari pembelian."
+  },
+  {
+    "question": "Berapa lama masa berlaku Bonus Kuota yang Pelanggan terima?",
+    "answer": "Bonus Kuota berlaku selama 7 dan 14 hari tergantung pada nilai paket yang di aktivkan Pelanggan."
+  }
+]

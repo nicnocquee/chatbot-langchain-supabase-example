@@ -1,0 +1,38 @@
+[
+  {
+    "question": "Berapa lama masa aktif Kartu Perdana eSIM Unlimited",
+    "answer": "Masa aktif Kartu Perdana Unlimited adalah 28 hari terhitung sejak kartu diaktivasi"
+  },
+  {
+    "question": "Berapa batas pemakaian wajar yang diberikan?",
+    "answer": "Batas pemakaian wajar untuk Kartu Perdana Unlimited adalah 2 GB per hari,"
+  },
+  {
+    "question": "Apakah kartu perdana Unlimited ada fasilitas perpanjangan otomatis?",
+    "answer": "Tidak, untuk perdana Unlimited tidak berlaku mekanisme auto renewal (perpanjang otomatis) untuk benefit dari aktifasi kartu perdana, untuk menikmati mekanisme autorenewal silahkan membeli paket Autorenewal di Aplikasi mysmartfren atau via *888#"
+  },
+  {
+    "question": "Bagaimana untuk mengembalikan kecepatan jika telah mencapai batas pemakaian wajar?",
+    "answer": "Jika pelanggan ingin menikmati kecepatan semula ada beberapa Langkah yang dapat ditempuh:Membeli booster UnlimitedMembeli Paket Volume based /Kuota NonstopSelama pelanggan mempunyai kuota maka pemakaian data akan mengambil dari kuota volume basenya terlebih dahulu"
+  },
+  {
+    "question": "Apa itu Smartfren eSIM?",
+    "answer": "eSIM adalah standar baru yang dikembangkan oleh GSMA dan digunakan di seluruh dunia. eSIM memungkinkan pengguna untuk mengakses jaringan Smartfren ke perangkat tanpa menggunakan kartu SIM fisik. eSIM menyimpan nomor telepon, paket berlangganan, konfigurasi jaringan yang membuat perangkat anda dapat terhubung ke jaringan Smartfren."
+  },
+  {
+    "question": "Apa kelebihan eSIM?",
+    "answer": "Mengoptimalkan fitur eSIM dimana pelanggan bisa menggunakan dual-sim (atau lebih) pada perangkat (kartu SIM fisik & eSIM), sehingga pelanggan lebih flexible untuk mengatur preferensi layanan data, telepon dan SMS. Tidak hanya iPhone, Android pun juga bisa menikmati layanan fitur eSIM. Dengan eSIM pelanggan bisa menikmati layanan menarik lainnya dari Smartfren."
+  },
+  {
+    "question": "Saya tidak bisa menemukan Personal Hotspot, dimana saya bisa menemukannya?",
+    "answer": "Menu untuk mengaktifkan fitur Hotspot Pribadi tidak muncul di pengaturan perangkat Iphone 13 kamu secara otomatis.Pastikan kamu telah mengaktifkan fitur VoLTE sebelumnya. Berikut langkah-langkah untuk mengaktifkan Hotspot Pribadi di perangkat Iphone 13 kamu.1. Buka menu Pengaturan –> ketuk Seluler2. Pilih Jaringan Data Seluler3. Masukkan APN pada bagian Hotspot Pribadi dengan ‘smartfren4g’4. Kembali ke menu Seluler (langkah penting untuk pengguna eSIM)5. Pilih Jaringan Data Seluler6. Masukkan APN pada bagian APN Seluler dengan ‘smarfren4g’7. Kembali ke menu Seluler8. Menu Hotspot Pribadi akan muncul di menu Seluler9. Hotspot Pribadi kamu siap digunakan"
+  },
+  {
+    "question": "Saya menggunakan aplikasi BCA Mobile, kenapa tidak ada menu eSIM ?",
+    "answer": "Pembelian eSIM hanya dapat dilakukan pada aplikasi MyBCA, bila anda belum memiliki aplikasi tersebut bisa download melalui link berikut : Android atau iOS"
+  },
+  {
+    "question": "Saya memiliki kendala lain, harus bagaimana?",
+    "answer": "Jika mengalami kendala atau informasi lebih lanjut, anda bisa menghubungi :Untuk terhubung dengan Call Center, Pelanggan dapat melalui beberapa channel berikut:1. Call Center 888 untuk menghubungi dari nomor Smartfren2. Nomor telepon 021-50100000 dan 08811223344 untuk menghubungi dari PSTN atau nomor operator lain3. Facebook Smartfren4. Twitter: @Smartfrencare5. Email: Dapat diakses melalui Contact Us pada website kamidisini.6. Chat: Dapat diakses melalui website smartfren (icon robot Smarty) dan aplikasi MySmartfren"
+  }
+]

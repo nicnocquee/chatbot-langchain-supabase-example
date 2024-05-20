@@ -1,0 +1,22 @@
+[
+  {
+    "question": "Dimana Pelanggan bisa mendapatkan promo ini?",
+    "answer": "Pelanggan bisa mendapatkan promo ini di Indomaret terdekat dengan membeli paket data Volume Based minimal Rp100 ribu."
+  },
+  {
+    "question": "Berapa Potongan Harga yang diterima Pelanggan setelah melakukan pembelian paket data?",
+    "answer": "Pelanggan akan mendapatkan potongan harga Rp10 ribu setiap pembelian paket data Rp100 ribu, dan potongan harga Rp15 ribu setiap pembelian paket data Rp150 ribu atau Rp200 ribu."
+  },
+  {
+    "question": "Apakah promo ini berlaku di semua tipe pembayaran?",
+    "answer": "Ya. Promo ini berlaku di semua tipe pembayaran yang tersedia di Indomaret."
+  },
+  {
+    "question": "Apakah Diskon pembelian paket data dibatasi setiap periode promo?",
+    "answer": "Tidak. Pelanggan bisa mendapatkan diskon lebih dari 1 kali setiap pembelian paket data sesuai dengan ketentuan promo."
+  },
+  {
+    "question": "Bagaimana jika ada keluhan tidak mendapatkan Diskon apabila sudah melakukan pembelian paket data?",
+    "answer": "Untuk layanan informasi dan keluhan bisa menghubungi layanan Call Center smartfren 24 jam di 888."
+  }
+]

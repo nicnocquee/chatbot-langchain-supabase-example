@@ -1,0 +1,26 @@
+[
+  {
+    "question": "Apakah SmartKiosk itu?",
+    "answer": "SmartKiosk adalah mesin transaksi mandiri yang dapat digunakan pelanggan untuk melakukan transaksi pembelian dan layanan purna jual produk dan layanan Smartfren."
+  },
+  {
+    "question": "Keuntungan apa yang saya dapatkan apabila saya menggunakan SmartKiosk?",
+    "answer": "Pelanggan dapat melakukan transaksi sesuai kebutuhan pelanggan dengan cara yang mudah secara mandiri."
+  },
+  {
+    "question": "Transaksi apa saja yang bisa dilakukan pada SmartKiosk?",
+    "answer": "Pelanggan dapat melakukan transaksi aktivasi nomor pascabayar dan nomor prabayar, pembayaran tagihan pascabayar, pembelian pulsa, pembelian paket data, penggantian kartu serta pengantian nomor."
+  },
+  {
+    "question": "Pembayaran transaksi pada SmartKiosk bisa menggunakan apa?",
+    "answer": "Pelanggan dapat menggunakan m-Banking dan e-wallet apa saja yang tersedia fitur Scan QR."
+  },
+  {
+    "question": "Apakah ada promo jika saya melakukan transaksi pada SmartKiosk?",
+    "answer": "Ya saat ini tersedia, selama periode promo Pelanggan akan mendapatkan langsung hadiah menarik selama persediaan masih ada."
+  },
+  {
+    "question": "Saya sudah transaksi, namun pulsa saya belum terisi?",
+    "answer": "Pelanggan akan dihubungi pihak Smartfren dalam waktu maksimal 2 jam dari waktu transaksi, atau pelanggan bisa menghubungi Call Center Smartfren melalui SmartKiosk, aplikasi mysf atau melalui telepon ke 888 melalui nomor Smartfren, 08811223344 melalui nomor operator lain"
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "question": "1. Apa yang dimaksud layanan Transfer Pulsa smartfren?",
+    "answer": "Layanan Transfer Pulsa smartfren adalah layanan yang memungkinkan pengguna Smartfren mengirimkan pulsa ke sesama pengguna smartfren."
+  },
+  {
+    "question": "2. Bagaimana cara menggunakan layanan Transfer Pulsa smartfren?",
+    "answer": "Pelanggan cukup mengirimkan SMS ke 879 dengan format “KIRIM.<No.Penerima>.<nominal>, contoh “KIRIM.0888xxxxxxx.5000”.Selain itu pelanggan juga bisa menggunakan layanan USSI dengan menghubungi *879#."
+  },
+  {
+    "question": "3. Berapa tarif yang dikenakan setiap kali melakukan Transfer Pulsa smartfren?",
+    "answer": "Pengirim akan dikenakan biaya admin namun dengan nominal yang berbeda-beda bergantung pada jumlah pulsa yang dikirimkan."
+  },
+  {
+    "question": "4. Apakah pulsa yang dikirimkan akan menambah masa aktif di nomor penerima?",
+    "answer": "Ya, penerima pulsa akan bertambah masa aktifnya, namun bergantung pada jumlah pulsa yang dikirimkan.Denomination (Rp)Extend Active Date1 – 5,0001 Day5,001 – 10,0003 Days10,001 – 20,0007 Days20,001 – 50,00010 Days50,001 – 100,00015 Days"
+  },
+  {
+    "question": "5. Apakah Transfer Pulsa smartfren bisa dilakukan ke penerima pulsa dalam masa tenggang?",
+    "answer": "Ya, Transfer Pulsa dapat dilakukan ke nomor smartfren dalam masa tenggang."
+  },
+  {
+    "question": "6. Apakah ada minimum saldo yang harus dimiliki oleh pengirim setelah melakukan Transfer Pulsa smartfren?",
+    "answer": "Pelanggan harus memiliki saldo minimum sebesar Rp 5.000 setelah melakukan transfer pulsa."
+  },
+  {
+    "question": "7. Berapa banyak pulsa yang dapat ditransfer?",
+    "answer": "Dalam satu kali pengiriman pelanggan hanya dapat melakukan transfer maksimum sebesar Rp.100,000."
+  },
+  {
+    "question": "8. Apakah ada ketentuan khusus bagi pelanggan yang ingin melakukan Transfer Pulsa smartfren?",
+    "answer": "Pelanggan yang ingin melakukan Transfer Pulsa minimal harus berada di jaringan Smartfren dalam waktu 30 hari dan masih berada dalam masa aktif."
+  }
+]

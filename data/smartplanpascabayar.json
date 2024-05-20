@@ -1,0 +1,42 @@
+[
+  {
+    "question": "1. Apa Paket SmartPlan Postpaid Itu?",
+    "answer": "Paket SmartPlan Postpaid adalah paket combo lengkap yang terdiri dari benefit kuota Data, Telpon dan SMS dimana pelanggan akan mendapatkan unit yang dapat diatur sendiri dan dikonversi menjadi kuota Data/Telpon/SMS sesuai dengan kebutuhan pelanggan."
+  },
+  {
+    "question": "2. Ada berapa banyak pilihan paket SmartPlan Postpaid?",
+    "answer": "Pilihan Paket SmartPlan Postpaid bervariasi mulai dari harga Rp 50ribu sampai dengan harga Rp 650ribu."
+  },
+  {
+    "question": "3. Jika Saya Membeli Paket SmartPlan 100ribu, Berapa Unit yang Saya Dapat dan Berapa Maksimal Alokasi Unit untuk Kuota Datanya?",
+    "answer": "Paket SmartPlan 100ribu akan mendapatkan 20 unit, dimana unit tersebut dapat dialokasikan maksimal untuk kuota Data 18 unit (setara dengan 18 GB), kuota Voice 1 unit (setara dengan 5 menit) dan kuota SMS 1 unit (setara dengan 50 SMS)"
+  },
+  {
+    "question": "4. Apakah Saya Dapat Mengalokasikan Semua Unit yang Ada untuk Kuota Data Saja?",
+    "answer": "Tidak bisa, minimum harus dialokasikan 1 unit untuk kuota Voice dan 1 unit untuk kuota SMS. Tidak boleh ada unit yang nol (kosong)."
+  },
+  {
+    "question": "5. Apa Itu Kuota 24 Jam?",
+    "answer": "Kuota 24 jam adalah kuota internet 4G yang dapat digunakan 24 jam/hari selama masa berlaku paket SmartPlan."
+  },
+  {
+    "question": "6. Apa Itu Kuota Nelpon ke Operator Lain?",
+    "answer": "Kuota Nelpon ke Operator Lain adalah kuota nelpon yang dapat dipakai ke operator lain di Indonesia. Kuota ini tidak berlaku untuk panggilan international maupun nomor khusus seperti layanan Call Center dan layanan khusus/premium lainnya."
+  },
+  {
+    "question": "7. Apa Itu Kuota Nelpon Sepuasnya ke Smartfren?",
+    "answer": "Kuota Nelpon Sepuasnya ke Smartfren adalah kuota nelpon yang dapat dipakai ke sesama Smartfren. Kuota ini tidak berlaku saat roaming international."
+  },
+  {
+    "question": "8. Apa Itu Kuota SMS ke Semua Operator?",
+    "answer": "Kuota SMS ke Semua Operator adalah kuota sms yang dapat dipakai ke semua operator di Indonesia termasuk ke nomor Smartfren. Kuota ini tidak berlaku untuk sms international maupun nomor khusus seperti layanan SMS Banking dan layanan sms khusus/premium lainnya."
+  },
+  {
+    "question": "9. Bagaimana Jika Kuota Data Habis Sebelum Paket Berakhir?",
+    "answer": "Paket SmartPlan Postpaid ini berlaku mekanisme Limitless, artinya jika kuota Data sudah habis ditengah-tengah periode paket, maka pelanggan tetap dapat melakukan koneksi data dengan kecepatan yang disesuaikan sampai dengan akhir bulan/proses renewal paket di billing cycle berikutnya.Jika ingin mendapatkan kecepatan Best Effort, pelanggan dapat membeli Paket Add On Data yang tersedia melalui aplikasi My Smartfren."
+  },
+  {
+    "question": "10. Bagaimana Jika Kuota Telpon atau SMS Habis Sebelum Paket Berakhir?",
+    "answer": "Jika kuota Telpon atau SMS habis, maka akan dikenakan tariff Telpon atau SMS yang berlaku. Pelanggan dapat membeli Paket Add On Telpon atau SMS yang tersedia melalui aplikasi My Smartfren"
+  }
+]
